@@ -18,7 +18,7 @@
                 <div id="DescriptionIndex">
                     <p>
                         <h4>Questo progetto mette a disposizione un sito internet
-                            per la compra/vendita di libri di testo.</h4>
+                            per la visione e la prenotazione di camere di un B & B.</h4>
 			<br/>
                     </p>
                     <hr/>
@@ -71,7 +71,7 @@
                     
                 <div id="AccessIndex">  
                     <p id="Accedi">
-                        <a href="indexHome.php">ACCEDI AD INDEX</a>
+                        <a href="homepage.php">ACCEDI ALLA HOMEPAGE</a>
                     </p>
                 </div>           <!--Chiusura AccessIndex-->
                     

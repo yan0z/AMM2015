@@ -12,7 +12,7 @@
         <div id="Page">
             <div id="Header">
                 <div id="Title">
-                    <h1>Non Solo Libri</h1>
+                    <h1>B & B AMM</h1>
                 </div>
             </div>			<!--Chiusura Header-->
             <div id="Bodypage">
