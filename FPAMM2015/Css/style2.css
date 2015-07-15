@@ -30,7 +30,7 @@ body{
 }
 
 #facebook{
-    background-image: url('../Images/blue-facebook-logo1.png.jpg')
+    background-image: url('../Images/blue-facebook-logo1.png')
 }
 
 #twitter{
@@ -45,8 +45,12 @@ body{
     
 }
 
-.social li ul{
+.social ul li{
     display: inline-block;
+}
+
+.social ul li a:link{
+    color:transparent;
 }
 /*Fine parte header*/
 
