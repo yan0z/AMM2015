@@ -89,8 +89,8 @@ div#title h1{
     width: 253px;
 }
 
-div#sideSX ul{
-    
+div#sideSX .serch{
+    padding-left: 38px;
 }
 
 div#sideSX li{
@@ -110,19 +110,19 @@ div#sideSX li{
 }
 
 .formPrezzo{
-    
+    margin-left: -25px;  
 }
 
 .formRooms{
-    
+    margin-left: -25px;
 }
 
 .child{
-    
+    margin-left: -25px;
 }
 
 .date{
-    
+    margin-left: -25px;
 }
 /*Fine parte sideSX*/
 
