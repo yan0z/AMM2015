@@ -24,7 +24,7 @@ body{
 }
 /*Parte header*/
 
-#social{
+.social{
     float:right;
     margin-right:20px;
 }
@@ -43,6 +43,10 @@ body{
 
 #title{
     
+}
+
+.social li ul{
+    display: inline-block;
 }
 /*Fine parte header*/
 
