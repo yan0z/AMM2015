@@ -84,6 +84,20 @@ div#title h1{
 #sideSX{
     border-style: solid;
     
+    float: left;
+    
+    width: 253px;
+}
+
+div#sideSX ul{
+    
+}
+
+div#sideSX li{
+    
+}
+
+#divsideSX ul li select{
     
 }
 
