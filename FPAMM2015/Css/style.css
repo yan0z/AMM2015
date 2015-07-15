@@ -5,7 +5,7 @@
 
 body{
 
-	background-color: #CD7F32;
+	background-color: #E69100;
 
 	font-style:oblique;
         
@@ -15,18 +15,16 @@ body{
 }
 
 #Pageindex{
-       
- 	width:1020px;
         
-	margin-left:auto;
+	margin-left:30px;
         
-	margin-right:auto;
+	margin-right:30px;
         
 	margin-top:30px;
         
 	margin-bottom:30px;
 
-	background-color:white;
+	background-color:#F0E840;
 	 
 }
 

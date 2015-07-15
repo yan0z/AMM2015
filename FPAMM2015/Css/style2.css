@@ -4,24 +4,60 @@
 /*Stile generale per tutte le pagine web */
 
 body{
-
-	background-color: #CD7F32;
-
-	font-style:oblique;
-        
-	font-family:"Lucida Console", monospace;
+    background-color: #CD7F32;
+    
+    font-style:oblique;
+    
+    font-family:"Lucida Console", monospace;
 }
 
 #allPage{
-    width:1020px;
-    
-    margin-left:auto;
+    margin-left:30px;
         
-    margin-right:auto;
+    margin-right:30px;
     
     margin-top:30px;
     
     margin-bottom:30px;
     
-    background-color:white;	 
+    background-color:#F0E840;	 
 }
+/*Parte header*/
+
+#social{
+    float:right;
+    margin-right:20px;
+}
+
+#facebook{
+    background-image: url('../Images/blue-facebook-logo1.png.jpg')
+}
+
+#twitter{
+    background-image: url('../Images/twitter_new_bird-iphone_1.png')
+}
+
+#header{
+    
+}
+
+#title{
+    
+}
+/*Fine parte header*/
+
+/*Parte bodyPage*/
+
+#bodyPage{
+    
+}
+
+/*Parte sideSX*/
+
+#sideSX{
+    
+}
+
+/*Fine parte sideSX*/
+/*Fine bodyPage*/
+
