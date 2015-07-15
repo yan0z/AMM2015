@@ -1,0 +1,27 @@
+/*Foglio di stile*/
+
+
+/*Stile generale per tutte le pagine web */
+
+body{
+
+	background-color: #CD7F32;
+
+	font-style:oblique;
+        
+	font-family:"Lucida Console", monospace;
+}
+
+#allPage{
+    width:1020px;
+    
+    margin-left:auto;
+        
+    margin-right:auto;
+    
+    margin-top:30px;
+    
+    margin-bottom:30px;
+    
+    background-color:white;	 
+}
