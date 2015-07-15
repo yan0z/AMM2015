@@ -42,11 +42,15 @@ body{
 }
 
 #title{
+    bak
     
 }
 
 div#title h1{
-    color: red;
+    color: black;
+    text-align: center;
+    padding-top: 51px;
+    height: 160px;
 }
 
 .social ul li{
