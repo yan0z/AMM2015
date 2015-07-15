@@ -11,6 +11,9 @@ body{
     font-family:"Lucida Console", monospace;
 }
 
+header{
+    border-style: solid;
+}
 #allPage{
     margin-left:30px;
         
@@ -26,6 +29,7 @@ body{
 
 .social{
     float:right;
+    
     margin-right:20px;
 }
 
@@ -38,7 +42,8 @@ body{
 }
 
 #header{
-    
+    border-style: solid;
+    height: 211px;
 }
 
 #title{
@@ -47,8 +52,11 @@ body{
 
 div#title h1{
     color: black;
+    
     text-align: center;
+    
     padding-top: 51px;
+    
     height: 160px;
 }
 
@@ -64,12 +72,18 @@ div#title h1{
 /*Parte bodyPage*/
 
 #bodyPage{
+    background-color: #F0E840;
     
+    padding-bottom: 1000px;
+    
+    border-style: solid;
 }
 
 /*Parte sideSX*/
 
 #sideSX{
+    border-style: solid;
+    
     
 }
 
