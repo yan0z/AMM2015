@@ -45,6 +45,10 @@ body{
     
 }
 
+div#title h1{
+    color: red;
+}
+
 .social ul li{
     display: inline-block;
 }
