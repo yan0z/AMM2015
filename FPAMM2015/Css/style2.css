@@ -145,7 +145,13 @@ div#sideSX li{
 }
 
 #sideSX hr{
+    margin-left: -80px;
+}
+
+#sideSX .date hr{
+    padding-left: 10px;
     margin-left: 10px;
+    
 }
 /*Fine parte sideSX*/
 
