@@ -3,6 +3,8 @@
 
 /*Stile generale per tutte le pagine web */
 
+/*Parte di home page*/
+
 body{
     background-color: #CD7F32;
     
@@ -183,6 +185,8 @@ div#sideSX ul{
     
 }
 
+/*Parte sideDX*/
+
 #sideDX{
     border-style: solid;
     
@@ -194,5 +198,60 @@ div#sideSX ul{
     
     margin-top: -1019px;
 }
+
+/*Parte login*/
+
+.login{
+    
+}
+
+#login{
+    
+}
+
+.formLogin{
+    
+}
+
+#formLogin{
+    
+}
+
+div#formLogin #dati{
+    
+}
+
+#buttonLogin{
+    
+}
+/*Fine parte login*/
+
+/*Parte registrazione*/
+
+.registrazione{
+    
+}
+
+#registrazione{
+    
+}
+
+.formRegistrazione{
+    
+}
+
+#formRegistrazione{
+    
+}
+
+div#formRegistrazione #dati{
+    
+}
+
+#buttonReg{
+    
+}
+/*Fine sideDX*/
 /*Fine bodyPage*/
 
+/*Fine homepage*/
