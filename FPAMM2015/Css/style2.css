@@ -89,6 +89,8 @@ div#title h1{
     float: left;
     
     width: 253px;
+    
+    height: 1032px;
 }
 
 div#sideSX .serch{
@@ -155,7 +157,16 @@ div#sideSX li{
 
 #buttonCerca{
     border-style: solid;
+    
     background-color: #CD7F32;
+    
+    border-color: black;
+    
+    height: 50px;
+    
+    width: 100px;
+    
+    margin-top: 50px;
 }
 /*Fine parte sideSX*/
 
