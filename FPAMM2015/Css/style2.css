@@ -149,8 +149,7 @@ div#sideSX li{
 }
 
 #sideSX .date hr{
-    padding-left: 10px;
-    margin-left: 10px;
+    margin-left: -55px;
     
 }
 /*Fine parte sideSX*/
