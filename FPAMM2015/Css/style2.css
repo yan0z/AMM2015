@@ -96,11 +96,11 @@ div#sideSX .serch{
 }
 
 div#pay #minimo{
-    
+    margin-left: -13px;
 }
 
 div#pay #massimo{
-    
+    margin-left: -13px;
 }
 div#sideSX li{
     
@@ -132,6 +132,10 @@ div#sideSX li{
 
 .date{
     margin-left: -25px;
+}
+
+.date #allSelect{
+    
 }
 /*Fine parte sideSX*/
 
