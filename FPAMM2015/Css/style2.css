@@ -135,6 +135,12 @@ div#sideSX li{
 }
 
 .date #allSelect{
+    padding-left: 20px;
+    
+    margin-left: 20px;
+}
+
+.date #dayAP{
     
 }
 /*Fine parte sideSX*/
