@@ -199,6 +199,9 @@ div#sideSX ul{
     margin-top: -1019px;
 }
 
+div#sideDX ul{
+    list-style-type: none;
+}
 /*Parte login*/
 
 .login{
