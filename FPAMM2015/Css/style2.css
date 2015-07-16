@@ -152,6 +152,11 @@ div#sideSX li{
     margin-left: -55px;
     
 }
+
+#buttonCerca{
+    border-style: solid;
+    background-color: #CD7F32;
+}
 /*Fine parte sideSX*/
 
 #center{
