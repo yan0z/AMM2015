@@ -143,6 +143,10 @@ div#sideSX li{
 .date #dayAP{
     margin-left: 5px;
 }
+
+#sideSX hr{
+    margin-left: 10px;
+}
 /*Fine parte sideSX*/
 
 #center{
