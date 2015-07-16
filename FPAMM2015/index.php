@@ -71,7 +71,7 @@
                     
                 <div id="AccessIndex">  
                     <p id="Accedi">
-                        <a href="homepage.php">ACCEDI ALLA HOMEPAGE</a>
+                        <a href="homepage.html">ACCEDI ALLA HOMEPAGE</a>
                     </p>
                 </div>           <!--Chiusura AccessIndex-->
                     
