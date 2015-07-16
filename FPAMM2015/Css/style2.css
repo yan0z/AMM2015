@@ -105,11 +105,11 @@ div#pay #massimo{
     margin-left: -13px;
 }
 div#sideSX li{
-    
+    list-style-type: none;
 }
 
-#divsideSX ul li select{
-    
+div#sideSX ul{
+    list-style-type: none;
 }
 
 .serch{
