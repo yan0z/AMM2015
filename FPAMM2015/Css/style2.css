@@ -76,7 +76,7 @@ div#title h1{
 #bodyPage{
     background-color: #F0E840;
     
-    padding-bottom: 1000px;
+    padding-bottom: 990px;
     
     border-style: solid;
 }
@@ -90,7 +90,7 @@ div#title h1{
     
     width: 253px;
     
-    height: 1032px;
+    height: 1013px;
 }
 
 div#sideSX .serch{
@@ -171,11 +171,30 @@ div#sideSX ul{
 /*Fine parte sideSX*/
 
 #center{
+    border-style: solid;
+    
+    height: 1003px;
+    
+    margin-left: 258px;
+        
+    margin-right: 258px;
+    
+    padding-bottom: 10px;
+    
+    padding-left: 10px;
     
 }
 
 #sideDX{
+    border-style: solid;
     
+    float: right;
+    
+    width: 253px;
+    
+    height: 1013px;
+    
+    margin-top: -1019px;
 }
 /*Fine bodyPage*/
 
