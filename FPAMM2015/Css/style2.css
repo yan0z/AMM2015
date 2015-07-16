@@ -209,7 +209,7 @@ div#sideDX ul{
 }
 
 #login{
-    
+    margin-left: 60px;
 }
 
 .formLogin{
@@ -225,7 +225,19 @@ div#formLogin #dati{
 }
 
 #buttonLogin{
+    border-style: solid;
     
+    background-color: #CD7F32;
+    
+    border-color: black;
+
+    height: 25px;
+
+    width: 100px;
+
+    margin-top: 20px;
+
+    margin-left: 75px;
 }
 /*Fine parte login*/
 
@@ -236,7 +248,7 @@ div#formLogin #dati{
 }
 
 #registrazione{
-    
+    margin-left: 35px;
 }
 
 .formRegistrazione{
@@ -252,7 +264,19 @@ div#formRegistrazione #dati{
 }
 
 #buttonReg{
-    
+    border-style: solid;
+
+    background-color: #CD7F32;
+
+    border-color: black;
+
+    height: 25px;
+
+    width: 100px;
+
+    margin-top: 20px;
+
+    margin-left: 75px;
 }
 /*Fine sideDX*/
 /*Fine bodyPage*/
