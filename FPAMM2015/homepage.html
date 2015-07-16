@@ -245,11 +245,13 @@
                         
                         <li class="formLogin">
                             <div id="formLogin">
-                                <label for="username">User:</label>
-                                <input name="username" id="dati" type="text"/>
-                                <label for="password">Password:</label>
-                                <input name="password" id="dati" type="text"/>
-                                <button type="submit" id="buttonLogin">LOGIN</button>
+                                <form method="post" action="login">
+                                    <label for="username">User:</label>
+                                    <input name="username" id="dati" type="text"/>
+                                    <label for="password">Password:</label>
+                                    <input name="password" id="dati" type="password"/>
+                                    <button type="submit" id="buttonLogin" value="login">LOGIN</button>
+                                </form>
                             </div>
                         </li>
                     </ul>
@@ -260,17 +262,19 @@
                         </li>
                         <li class="formRegistrazione">
                             <div id="formRegistrazione">
-                                <label for="nome">Nome:</label>
-                                <input name="nome" id="dati" type="text"/>
-                                <label for="cognome">Cognome:</label>
-                                <input name="cognome" id="dati" type="text"/>
-                                <label for="username">User:</label>
-                                <input name="username" id="dati" type="text"/>
-                                <label for="password">Password:</label>
-                                <input name="password" id="dati" type="text"/>
-                                <label for="email">Email:</label>
-                                <input name="email" id="dati" type="text"/>
-                                <button type="submit" id="buttonReg">REGISTRATI</button>
+                                <form method="post" action="registra">
+                                    <label for="nome">Nome:</label>
+                                    <input name="nome" id="dati" type="text"/>
+                                    <label for="cognome">Cognome:</label>
+                                    <input name="cognome" id="dati" type="text"/>
+                                    <label for="username">User:</label>
+                                    <input name="username" id="dati" type="text"/>
+                                    <label for="password">Password:</label>
+                                    <input name="password" id="dati" type="password"/>
+                                    <label for="email">Email:</label>
+                                    <input name="email" id="dati" type="text"/>
+                                    <button type="submit" id="buttonReg" value="registra">REGISTRATI</button>
+                                </form>
                             </div>
                         </li>
                     </ul>
