@@ -279,17 +279,23 @@ ul#list a:link{
 #rooms a:link{
     padding-left: 20px;
     
+    color: whitesmoke;
+    
     display: block;
 }
 
 #intorni a:link{
     padding-left: 70px;
     
+    color: whitesmoke;
+    
     display: block;
 }
 
 #staff a:link{
     padding-left: 20px;
+    
+    color: whitesmoke;
     
     display: block;
 }
