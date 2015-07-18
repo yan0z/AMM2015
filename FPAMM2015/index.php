@@ -6,7 +6,7 @@
         <meta name="keywords" content="HTML">
         <meta name="Author" content="Stefano Carta 48554">
         <meta name="description" content="Progetto finale AMM">
-        <link rel="stylesheet" type="text/css" href="Css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="Css/style2.css" media="screen">
     </head>
     <body>
         <div id="PageIndex">
@@ -22,60 +22,107 @@
 			<br/>
                     </p>
                     <hr/>
-                    <p>
-                        <h4>Per ogni articolo ventuto si mettono a disposizione le seguenti informazioni:</h4><br/>
-                        <ul>
-                            <li>
-                                <h4>Titolo del libro</h4>
-                            </li>
-                            <li>	
-                                <h4>Autore</h4>
-                            </li>
-                            <li>
-                                <h4>Casa Editrice</h4>
-                            </li>
-                            <li>	
-                                <h4>Breve descrizione della trama</h4>
-                            </li>
-                            <li>	
-                                <h4>Genere del libro</h4>
-                            </li>
-                            <li>	
-                                <h4>Anno Pubblicazione</h4>
-                            </li>
-                            <li>	
-                                <h4>Disponibilità del prodotto</h4>
-                            </li>
-                            <li>	
-                                <h4>Prezzo</h4>
-                            </li>
-                        </ul>
-                    </p>
-                    <p>
+                    <div>
+                        <h2>Descrizione</h2>
                         <h4>Per ogni utente vengono gestite diverse funzionalit&agrave;.</h4><br/>
 			Gli utenti possono essere:<br/>
 			<ul>
                             <li>
-				<h4>ADMIN</h4>
+				<h4>ADMIN/Gestore</h4>
                             </li>
                             <li>	
-				<h4>Normal USER</h4>
-                            </li>
-                            <li>
-				<h4>USER/Venditore</h4>
+				<h4>Utente/Cliente</h4>
                             </li>
 			</ul>
-                    </p>
+                        
+                        <h4>
+                            <ul>
+                                <li>
+                                    ADMIN/Gestore:
+                                    <ul>
+                                        <li>
+                                            Aggiunge e toglie le camere disponibili.
+                                        </li>
+                                        <li>
+                                            Modifica i prezzi per notte.
+                                        </li>
+                                        <li>
+                                            Modifica servizi aggiuntivi.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Utente/Cliente:
+                                    <ul>
+                                        <li>
+                                            Effettua il login, e la registrazione.
+                                        </li>
+                                        <li>
+                                            Prenota camere.
+                                        </li>
+                                        <li>
+                                            Pagamento online.
+                                        </li>
+                                    </ul>
+                                </li>
+                        </h4>
+                        <h2>Requisiti</h2>
+                        <div>
+                            <ul>
+                                <li>
+                                    Utilizzo HTML, CSS.
+                                </li>
+                                <li>
+                                    Utilizzo PHP, MySQL.
+                                </li>
+                                <li>
+                                    Utilizzo del pattern MVC
+                                </li>
+                                <li>
+                                    Due ruoli (Admin,Cliente)
+                                </li>
+                                <li>
+                                    Transazione per prenotazioni e pagamento.
+                                </li>
+                                <li>
+                                    Caricamente delle prenotazioni con salvataggio di Nome,Cognome,Email,data di arrivo e data di partenza.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                     <hr/>		
                 </div>           <!--Chiusura DescriptionIndex-->
                     
                 <div id="AccessIndex">  
                     <p id="Accedi">
-                        <a href="homepage.html">ACCEDI ALLA HOMEPAGE</a>
+                        <a href="homepage.php">ACCEDI ALLA HOMEPAGE</a>
                     </p>
                 </div>           <!--Chiusura AccessIndex-->
                     
                 <div id="InfoIndex">
+                    <div>
+                        <h2>Credenziali:</h2>
+                        <h3>Admin:</h3>
+                        <ul>
+                            <li>
+                                Username: stefano
+                            </li>
+                            <li>
+                                Password: carta
+                            </li>
+                        </ul>
+                        <h3>Cliente:</h3>
+                        <ul>
+                            <li>
+                                Username: ciccio
+                            </li>
+                            <li>
+                                Password: cliente
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    
                     <h4>Progetto a cura di:</h4>
                     <br/>
                     <ul>
@@ -84,15 +131,7 @@
                     </ul>
                 </div>           <!--Chiusura InfoIndex-->
             </div>               <!--Chiusura BodyIndex-->
-                
-            <div id="BottomIndex">
-                
-            </div>               <!--Chiusura BottomIndex-->
         </div> 
         <!--Chiusura PageIndex-->
-        <?php
-        // put your code here
-        
-        ?>
     </body>
 </html>
