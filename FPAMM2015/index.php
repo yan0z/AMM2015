@@ -25,16 +25,7 @@
                     <div>
                         <h2>Descrizione</h2>
                         <h4>Per ogni utente vengono gestite diverse funzionalit&agrave;.</h4><br/>
-			Gli utenti possono essere:<br/>
-			<ul>
-                            <li>
-				<h4>ADMIN/Gestore</h4>
-                            </li>
-                            <li>	
-				<h4>Utente/Cliente</h4>
-                            </li>
-			</ul>
-                        
+                        Gli utenti possono essere:<br/>
                         <h4>
                             <ul>
                                 <li>
@@ -122,9 +113,9 @@
                         </ul>
                     </div>
                     
-                    
-                    <h4>Progetto a cura di:</h4>
                     <br/>
+                    <hr/>
+                    <h4>Progetto a cura di:</h4>
                     <ul>
                         <li>Nome e Cognome: Stefano Carta</li>
                         <li>Numero Matricola: 48554</li>
