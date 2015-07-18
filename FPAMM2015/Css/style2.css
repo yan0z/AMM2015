@@ -279,7 +279,7 @@ ul#list a:link{
 #rooms a:link{
     padding-left: 20px;
     
-    color: whitesmoke;
+    color: black;
     
     display: block;
 }
@@ -287,7 +287,7 @@ ul#list a:link{
 #intorni a:link{
     padding-left: 70px;
     
-    color: whitesmoke;
+    color: black;
     
     display: block;
 }
@@ -295,7 +295,7 @@ ul#list a:link{
 #staff a:link{
     padding-left: 20px;
     
-    color: whitesmoke;
+    color: black;
     
     display: block;
 }
