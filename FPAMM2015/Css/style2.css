@@ -273,15 +273,15 @@ ul#list a:link{
 }
 
 #rooms a:link{
-    
+    padding-left: 20px;
 }
 
 #intorni a:link{
-    
+    padding-left: 70px;
 }
 
 #staff a:link{
-    
+    padding-left: 20px;
 }
 /*Fine parte center*/
 /*Parte sideDX*/
