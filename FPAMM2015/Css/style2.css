@@ -202,14 +202,28 @@ div#sideSX ul{
     padding-top: 45px;
 
     padding-bottom: 50px;
+    
+    /*font-family:*/ 
 }
 
 div#center h1{
-    
+    margin-left: 315px;
 }
 
 #img{
-    
+    background-color: black;
+
+    width: 200px;
+
+    height: 200px;
+
+    border-style: solid;
+
+    float: left;
+
+    margin-right: 30px;
+
+    margin-bottom: 10px;
 }
 
 #panel{
