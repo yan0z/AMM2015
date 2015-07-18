@@ -164,7 +164,7 @@ div#sideSX ul{
 #buttonCerca{
     border-style: solid;
     
-    background-color: #CD7F32;
+    background-color: #F6AC00;
     
     border-color: black;
     
@@ -253,19 +253,19 @@ div#panel ul li{
 }
 
 li#rooms{
-    background-color: #CEB181
+    background-color: #F6AC00
 }
 
 li#intorni{
     margin-top: 45px;
     
-    background-color: #CEB181
+    background-color: #F6AC00
 }
 
 li#staff{
     margin-top: 45px;
     
-    background-color: #CEB181
+    background-color: #F6AC00
 }
 
 ul#list h2{
@@ -338,7 +338,7 @@ div#formLogin #dati{
 #buttonLogin{
     border-style: solid;
     
-    background-color: #CD7F32;
+    background-color: #F6AC00;
     
     border-color: black;
 
@@ -377,7 +377,7 @@ div#formRegistrazione #dati{
 #buttonReg{
     border-style: solid;
 
-    background-color: #CD7F32;
+    background-color: #F6AC00;
 
     border-color: black;
 
