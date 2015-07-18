@@ -323,7 +323,14 @@
                 </div>  <!Chiusura sideDX-->
    
             </div>
-           
+            
+            <div id="footer">
+            ::before
+            <p>
+                Progetto Finale AMM
+            </p>
+            ::after    
+            </div>
         </div>
         
     </body>
