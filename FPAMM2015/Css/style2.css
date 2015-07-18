@@ -176,6 +176,8 @@ div#sideSX ul{
 }
 /*Fine parte sideSX*/
 
+/*Inizio parte center*/
+
 #center{
     border-style: solid;
     
@@ -192,6 +194,34 @@ div#sideSX ul{
     background-color: #FFFF66;
 }
 
+#description{
+    
+}
+
+#panel{
+    
+}
+
+div#panel ul{
+    
+}
+
+div#panel ul li{
+    
+}
+
+li#rooms{
+    
+}
+
+li#intorni{
+    
+}
+
+li#staff{
+    
+}
+/*Fine parte center*/
 /*Parte sideDX*/
 
 #sideDX{
@@ -287,6 +317,7 @@ div#formRegistrazione #dati{
 
     margin-left: 75px;
 }
+/*Fine parte registrazione*/
 /*Fine sideDX*/
 /*Fine bodyPage*/
 
