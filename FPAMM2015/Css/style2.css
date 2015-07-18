@@ -235,7 +235,7 @@ div#center h1{
 #panel{
     margin-left: 150px;
 
-    margin-right: 185px;
+    margin-right: auto;
 }
 
 div#panel ul{
@@ -265,6 +265,10 @@ li#staff{
 }
 
 ul#list h2{
+    
+}
+
+ul#list a:link{
     
 }
 /*Fine parte center*/
