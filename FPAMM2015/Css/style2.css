@@ -282,6 +282,8 @@ ul#list a:link{
     color: black;
     
     display: block;
+    
+    text-decoration: none;
 }
 
 #intorni a:link{
@@ -290,6 +292,8 @@ ul#list a:link{
     color: black;
     
     display: block;
+    
+    text-decoration: none;
 }
 
 #staff a:link{
@@ -298,6 +302,8 @@ ul#list a:link{
     color: black;
     
     display: block;
+    
+    text-decoration: none;
 }
 /*Fine parte center*/
 /*Parte sideDX*/
