@@ -91,6 +91,8 @@ div#title h1{
     width: 253px;
     
     height: 1013px;
+    
+    background-color: white;
 }
 
 div#sideSX .serch{
@@ -99,10 +101,14 @@ div#sideSX .serch{
 
 div#pay #minimo{
     margin-left: -13px;
+
+    background-color: #FFFF66;
 }
 
 div#pay #massimo{
     margin-left: -13px;
+    
+    background-color: #FFFF66;
 }
 div#sideSX li{
     list-style-type: none;
@@ -198,6 +204,8 @@ div#sideSX ul{
     height: 1013px;
     
     margin-top: -1019px;
+    
+    background-color: white;
 }
 
 div#sideDX ul{
@@ -222,7 +230,7 @@ div#sideDX ul{
 }
 
 div#formLogin #dati{
-    
+    background-color: #FFFF66;
 }
 
 #buttonLogin{
@@ -261,7 +269,7 @@ div#formLogin #dati{
 }
 
 div#formRegistrazione #dati{
-    
+    background-color: #FFFF66;
 }
 
 #buttonReg{
