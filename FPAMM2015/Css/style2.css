@@ -396,10 +396,18 @@ div#formRegistrazione #dati{
 
 #footer{
     background-color: black;
+    
+    margin-top: -16px;
+    
+    margin-bottom: auto;
 }
 
 #footer p{
     color: white;
+    
+    margin-left: 555px;
+    
+    margin-right: auto;
 }
 /*Fine footer*/
 
