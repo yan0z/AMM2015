@@ -391,6 +391,18 @@ div#formRegistrazione #dati{
 }
 /*Fine parte registrazione*/
 /*Fine sideDX*/
+
+/*Inizio footer*/
+
+#footer{
+    background-color: black;
+}
+
+#footer p{
+    color: white;
+}
+/*Fine footer*/
+
 /*Fine bodyPage*/
 
 /*Fine homepage*/

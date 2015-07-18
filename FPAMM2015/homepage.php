@@ -325,11 +325,9 @@
             </div>
             
             <div id="footer">
-            ::before
-            <p>
-                Progetto Finale AMM
-            </p>
-            ::after    
+                <p>
+                    Progetto Finale AMM
+                </p>    
             </div>
         </div>
         
