@@ -76,7 +76,7 @@ div#title h1{
 /*Parte bodyPage*/
 
 #bodyPage{
-    background-color: #FFFF66;
+    background-color: #F0E840;
     
     border-style: solid;
 }
@@ -183,6 +183,7 @@ div#sideSX ul{
     
     padding-left: 10px;
     
+    background-color: #FFFF66;
 }
 
 /*Parte sideDX*/
@@ -197,8 +198,6 @@ div#sideSX ul{
     height: 1013px;
     
     margin-top: -1019px;
-    
-    background-color: #FFFF66;
 }
 
 div#sideDX ul{
