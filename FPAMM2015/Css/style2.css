@@ -233,15 +233,23 @@ div#center h1{
 }
 
 #panel{
-    
+    margin-left: 150px;
+
+    margin-right: 185px;
 }
 
 div#panel ul{
-    
+    list-style-type: none;
 }
 
 div#panel ul li{
-    
+    border-style: outset;
+
+    margin-right: 250px;
+
+    padding-left: 50px;
+
+    border-color: #CD7F32;
 }
 
 li#rooms{
@@ -249,10 +257,14 @@ li#rooms{
 }
 
 li#intorni{
-    
+    margin-top: 45px;
 }
 
 li#staff{
+    margin-top: 45px;
+}
+
+ul#list h2{
     
 }
 /*Fine parte center*/
