@@ -23,10 +23,11 @@ CREATE TABLE IF NOT EXISTS 'stanze' (
 
 ------------POPOLO STANZE------------
 INSERT INTO 'stanze' ('id','postiLetto','costoPerNotte','clienti_id') VALUES
-    (1,1,10,1),
-    (2,1,15,2);
+    (1,1,10,2),
+    (2,1,15,1);
 
 ------------POPOLO CLIENTI------------
 INSERT INTO 'clienti' ('id','nome','cognome','user','password','email','stanze_id') VALUES
-    (1,
+    (1,'stefano','carta','stefano','carta',12345,'email@email.it',1),
+    (2,'ciccio','pasticcio','ciccio','cliente',12345,'email@altra.it',2);
 

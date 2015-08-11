@@ -1,4 +1,9 @@
 <!doctype html>
+
+<?php
+    include ('gestione.php');
+?>
+
 <html>
     <head>
         <title>FP AMM</title>
