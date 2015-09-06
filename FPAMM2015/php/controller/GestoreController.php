@@ -2,13 +2,13 @@
 
      /**
      *  @Author Stefano Carta 
-     *  Controllo accesso
+     *  Funzioni gestore B&B
      */
     
     include_once 'BaseController.php';
     include_once basename(__DIR__) . '/../model/ElencoCamere.php';
     include_once basename(__DIR__) . '/../model/UserFactory.php';
-    //include_once basename(__DIR__) . '/../view/ViewDescriptor.php';
+    include_once basename(__DIR__) . '/../view/ViewDescriptor.php';
     
     class GestoreController extends BaseController{
         const elenco = 'elenco';
@@ -124,38 +124,38 @@
             }
             
             //Richiamo la vista
-            require basename(__DIR__) . '/../view/master.php';
-            
-            //Aggiorno i dati di una camera
-            public function updateCamere($mod_camere,&$request,&$msg){
-                if(isset($request['prezzo'])){
-                    if(!mod_camere -> setPrezzo($request['prezzo'])){
-                        $msg[] = "Prezzo non valido";
-                    }
+            require basename(__DIR__) . '/../view/master.php';   
+        }
+        //Aggiorno i dati di una camera
+        private function updateCamere($mod_camere,&$request,&$msg){
+            if(isset($request['prezzo'])){
+                if(!$mod_camere -> setPrezzo($request['prezzo'])){
+                    $msg[] = "Prezzo non valido";
                 }
             }
+        }
             
-            //Ricerco Camera
-            private function carcaCamerePerId($id,&$camere){
-                foreach ($camere as $camera){
-                    if($camera -> getId() == $id){
-                        return $camera;
-                    }
+            
+        //Ricerco Camera
+        private function carcaCamerePerId($id,&$camere){
+            foreach ($camere as $camera){
+                if($camera -> getId() == $id){
+                    return $camera;
                 }
-                return null;
             }
+            return null;
+        }
             
-            //Restituisce la camera specificata
-            private function getCamere(&$request,&$msg){
-                if(isset($request['camere'])){
-                    $camere_id = filter_var($request['camere'],FILTER_VALIDATE_INT,FILTER_NULL_ON_FAILURE);
-                    $camere = CameraFactory::instance()->cercaCamerePerId($camere_id);
-                    if($camere == NULL){
-                        msg[] = "Camera non trovata";
-                    }
-                    else{
-                        return null
-                    }
+        //Restituisce la camera specificata
+        private function getCamere(&$request,&$msg){
+            if(isset($request['camere'])){
+                $camere_id = filter_var($request['camere'],FILTER_VALIDATE_INT,FILTER_NULL_ON_FAILURE);
+                $camere = CameraFactory::instance()->cercaCamerePerId($camere_id);
+                if($camere == NULL){
+                    $msg[] = "Camera non trovata";
+                }
+                else{
+                    return null;
                 }
             }
         }
