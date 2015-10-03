@@ -7,7 +7,7 @@
 
 
     include_once 'ViewDescriptor.php';
-    include_once basename(__DIR__) . '/../Settings.php';
+    include_once basename(__DIR__) . '/../settings.php';
     if (!$vd->isJson()) {
 ?>
 <!DOCTYPE html>
