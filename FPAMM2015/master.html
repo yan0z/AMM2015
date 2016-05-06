@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+	<body>	
+		<div id="header" >
+			<img src="../img/sfondo.png" class="sfondo"/></a>
+
+			<div id="logIn"	>
+				<?php if (isset($_SESSION['logged'])): ?>
+		       <ul>     
+			 		<li>
+			 			<a href='../log/logOut.php'>Logout</a>
+			 		</li>
+		       </ul>
+	        	<?php else: ?>
+		       <ul>
+	      	   		<li>
+	      	   			<a href='../log/logIn.php'>Login</a>
+	      	   		</li>     
+               </ul>
+				<?php endif; ?>
+			</div>
+		</div>
+
+    	<div id="content">
+    
+        	<div id="menu">	
+		
+	       		<ul id="topBar" >
+					<li>
+						<a href="../service/index.php" >Home Page</a>
+					</li>
+					
+					<li>
+						<a href="../service/rooms.php">Rooms</a>
+					</li>
+			
+
+					<li>
+						<a href="../service/house.php"><strong>The House</a>
+					</li>
+
+					<li>
+						<a href="../service/garden.php">The Garden</a>
+					</li>
+
+					<li>
+						<a href="../service/staff.php">Staff</a>
+					</li>
+				</ul>
+			</div>
+	  	</div>
+	</body>
+</html>

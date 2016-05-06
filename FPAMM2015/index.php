@@ -86,7 +86,7 @@
                     
                 <div id="AccessIndex">  
                     <p id="Accedi">
-                        <a href="homeNew.html">ACCEDI ALLA HOMEPAGE</a>
+                        <a href="master.html">ACCEDI ALLA HOMEPAGE</a>
                     </p>
                 </div>           <!--Chiusura AccessIndex-->
                     
