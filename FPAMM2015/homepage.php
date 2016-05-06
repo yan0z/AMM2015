@@ -9,7 +9,7 @@
         <title>FP AMM</title>
         <meta name="keywords" content="HTML">
         <meta name="Author" content="Stefano Carta 48554">
-        <meta name="description" content=Progetto finale AMM">
+        <meta name="description" content="Progetto finale AMM">
         <link rel="stylesheet" type="text/css" href="Css/style2.css" media="screen">
     </head>
     
