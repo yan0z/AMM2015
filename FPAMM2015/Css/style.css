@@ -1,0 +1,16 @@
+/* Foglio di stile */
+
+body{
+	background-color: #CD7F32;
+	font-style:oblique;        
+	font-family:"Lucida Console", monospace;
+}
+
+.social p {
+margin: 10px;
+float: left;
+}
+
+p.logout {
+background: url('../images/1074878.gif') no-repeat left center;
+}
