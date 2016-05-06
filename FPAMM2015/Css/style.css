@@ -6,11 +6,11 @@ body{
 	font-family:"Lucida Console", monospace;
 }
 
-.social p {
+.logout p {
 margin: 10px;
-float: left;
+float: right;
 }
 
 p.logout {
-background: url('../images/logout.png') no-repeat left center;
+background: url('../images/logout.png') no-repeat right center;
 }
