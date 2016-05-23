@@ -1,0 +1,6 @@
+<?php
+    define("DB_SERVER", "localhost"); 
+    define("DB_USER", "cartaStefano"); 
+    define("DB_PASS", "cinghiale"); 
+    define("DB_NAME", "amm14_cartaStefano"); 
+?>
