@@ -37,6 +37,6 @@
 		</div>
             </div>
 	</div>
-	<? include('../inc/footer.php');?>
+	<? include('../master/footer.php');?>
     </body>
 </html>
