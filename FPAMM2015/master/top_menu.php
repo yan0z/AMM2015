@@ -4,7 +4,6 @@
         <div id="header" >
             <div id='title'>
                 <h1>B&B - AMM</h1>
-            <img src="../images/sfondo.png" class="logo"/>
             </div>
             
             <div id="logIn">
