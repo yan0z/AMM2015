@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 
-<?include ('../master/header.php');?>
-<?include ('../master/top_menu.php');?>
-<?include ('../sql/settings.php');?>
+<?php include ('../master/header.php');?>
+<?php include ('../master/top_menu.php');?>
+<?php include ('../sql/settings.php');?>
 
 <?php
     session_start();
@@ -56,9 +56,9 @@
 ?>
 
 <body> 
-    <div id="contenitore">
-        <?include('../master/sideDx.php');?>
-        <div id="contenuti">
+    <div id="content">
+        <?php include('../master/sideDx.php');?>
+        <div id="contentx">
             <div class="box">
             <h1>Accesso</h1>
             <?php if($error): ?>
@@ -72,6 +72,6 @@
             </div>            
         </div>
     </div>
-    <? include('../master/footer.php');?>
+    <?php include('../master/footer.php');?>
 </body>
 </html>

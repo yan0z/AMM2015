@@ -61,7 +61,7 @@
             <div id="contentx">
                 <div class="box">
                     <h3>Prenotazione</h3>
-                    <form action="prenota.php" method="post" id="prenota">
+                    <form action="booking.php" method="post" id="prenota">
                         <table>
                             <tr>
                                 <td><label>Nome <span class="required">*</span></label></td>

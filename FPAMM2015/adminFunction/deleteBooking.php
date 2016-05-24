@@ -38,9 +38,12 @@
                                 success: function(data)
                                 { 
                                     $('#result').html(data);
-                                    $('#result').html("Prenotazioni  cancellate correttamente"); 
+                                    $('#result').html("Cancellazione Effettuata"); 
                                 },
-                                error:  function(data) { console.debug('Errore nella chiamata eliminaPrenotazioni');} 
+                                error:  function(data) 
+                                { 
+                                    console.debug('Errore durante la cancellazione');
+                                } 
                             }
                         );
                     }

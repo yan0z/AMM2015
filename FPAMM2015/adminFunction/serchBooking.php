@@ -9,7 +9,7 @@
 
     <body>
 	<div id="content">
-            <? include ('../master/sideDx.php'); ?>
+            <?php include ('../master/sideDx.php'); ?>
             <div id="contentx">
                 <div class="box">
        
@@ -85,6 +85,6 @@
                 }  
                 )
         </script> 
-        <?include('../inc/footer.php');?>  
+        <?php include('../inc/footer.php');?>  
     </body> 
 </html> 
