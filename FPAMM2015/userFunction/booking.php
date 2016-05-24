@@ -27,7 +27,7 @@
     ?>
         
     <?php if(trim($nome) == '' || trim($cognome) == ''|| trim($email) == ''|| trim($telefono) == ''|| trim($arrivo) == ''||trim($partenza) == ''|| trim($ospiti) == ''|| trim($doppia) == ''|| trim($tripla) == ''): ?> 
-        <div class="messaggi"><img src="../img/stop.png" </a><strong>Attenzione, alcuni campi non sono compilati.</strong>  </div>
+        <div class="messaggi"><img src="../images/stop.png" </a><strong>Attenzione, alcuni campi non sono compilati.</strong>  </div>
 
         <?php  $errore = false; ?>
         <?php endif;?> 

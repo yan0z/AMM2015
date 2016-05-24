@@ -30,9 +30,9 @@
         <div id="content">
             <div id="menu">
                 <ul id="navigation" >
-                    <li><a href="master.php" ><strong>Home</strong></a></li>
-                    <li><a href="servizi.php"><strong>Camere e prezzi</strong></a></li>
-                    <li><a href="staff.php"><strong>Il nostro staff</strong></a></li>
+                    <li><a href="../master/master.php" ><strong>Home</strong></a></li>
+                    <li><a href="../master/servizi.php"><strong>Camere e prezzi</strong></a></li>
+                    <li><a href="../master/staff.php"><strong>Il nostro staff</strong></a></li>
                 </ul>
             </div>
 	</div>
