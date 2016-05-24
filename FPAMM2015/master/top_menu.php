@@ -3,7 +3,7 @@
     <body>
         <div id="header" >
             <h1>B&B - AMM</h1>
-            <img src="../images/logo.png" class="logo"/></a>
+            <img src="../images/sfondo.png" class="logo"/></a>
             <div id="logIn"	>
                 <?php if (isset($_SESSION['logged'])):?>
                     <ul>     

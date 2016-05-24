@@ -8,7 +8,7 @@
     
     <body>
         <div id="content">
-	<?include ('../master/sideDx.php');?>
+	<?php include ('../master/sideDx.php');?>
             <div id="contentx">
                 <div class="box">
                     <h2>Tariffario</h2>
@@ -34,6 +34,6 @@
                 </div>
             </div>
         </div>
-        <? include('../master/footer.php');?>
+        <?php include('../master/footer.php');?>
     </body>
 </html>
