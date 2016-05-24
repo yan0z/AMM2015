@@ -15,7 +15,9 @@ body
 
 #title
 {
-    
+    font-size: 30px;
+    font-style: italic;
+    color: green;
 }
 
 .logo
@@ -26,11 +28,14 @@ body
   width:350px;
 }
 
-#logIn
+#logIn 
 {
-  margin-left:190px;
-  margin-top:40px;
+    margin-left: -100px;
+    margin-top: 50px;
+    float: right;
+    margin-right: 240px;
 }
+
 
 #logIn li 
 {
@@ -50,7 +55,7 @@ body
     width: 100%;
     background-color: #B0C826;
     background-image: url(../images/sfondo.png);
-    height: 235px;
+    height: 180px;
     padding-top: 20px;
     padding-bottom: 5px;
 
