@@ -64,7 +64,7 @@
             <?php if($error): ?>
             <div class="login-error"> Errore, riprova </div>
             <?php endif;?>
-                <form style="margin:20px 0 20px 0;" method="post" action="login.php">
+                <form style="margin:20px 0 20px 0;" method="post" action="logIn.php">
                     <label for="username">Username</label> <input type="text" name="username" id="username"/>
                     <label for="password">Password </label><input type="password" name="password" id="password" />
                     <input type="submit" value="Login" name="goLogin"/>
