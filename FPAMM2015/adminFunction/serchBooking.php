@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-    <? 
+    <?php 
         session_start(); 
         include ('../master/header.php'); 
         include ('../master/top_menu.php');
@@ -15,7 +15,7 @@
        
                     <h3>Ricerca Prenotazione</h3>
                     
-                    <form action="../utente/function.php" method="post" id="ricerca">
+                    <form action="../userFunction/function.php" method="post" id="ricerca">
                         <table>
                             <tr>
                                 <td>
@@ -79,7 +79,7 @@
                         ).error(
                             function()
                             {
-                                $('#result').html('impossibile inviare il modulo');
+                                $('#result').html('Impossibile inviare il modulo');
                             }
                             )  
                 }  
