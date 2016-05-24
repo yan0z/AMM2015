@@ -2,7 +2,7 @@
 
         <?php if(isset($_SESSION['logged']) == false): ?>
 
-            <p> <strong>Benvenuto al B&B Villa Serena</strong> </p>
+            <p> <strong>Wellcome to B&B - AMM</strong> </p>
 
 
         <?php endif;?>
@@ -29,8 +29,8 @@
         <?php else: ?>
 
                 <ul>
-                    <li><a href="../userFunction/prenota.php"><strong>Prenota</strong></a></li>
-                    <li><a href="../userFunction/visualizzaPrenotazioni.php"><strong>Le mie Prenotazioni</strong></a></li>
+                    <li><a href="../userFunction/booking.php"><strong>Prenota</strong></a></li>
+                    <li><a href="../userFunction/viewBooking.php"><strong>Le mie Prenotazioni</strong></a></li>
                 </ul>
                
         <?php endif;?>
