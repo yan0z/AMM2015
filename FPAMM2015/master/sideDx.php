@@ -12,9 +12,9 @@
 
    
 
-	            <p><strong>Bentornato:</br></strong> <?=$_SESSION['username'];?></p>
+	            <p><strong>Bentornato:</br></strong> <?php= $_SESSION['username'];?></p>
 
-	            <p><strong>Grado:</br></strong> <?=$_SESSION['livello'];?></p>
+	            <p><strong>Grado:</br></strong> <?php= $_SESSION['livello'];?></p>
 
 
 	        
