@@ -13,6 +13,11 @@ body
     margin:auto auto;
 }
 
+#title
+{
+    background-image: url(../images/sfondo.png);
+}
+
 .logo
 {
   margin: 0 auto;
