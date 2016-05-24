@@ -3,10 +3,7 @@
     <body>
         <div id="header" >
             <h1>B&B - AMM</h1>
-            <img src="../images/sfondo.png" class="logo"/></a>
-	</div>
-
-        <div id="header_2">
+            <img src="../images/sfondo.png" class="logo"/>
             <div id="logIn">
                 <?php if (isset($_SESSION['logged'])):?>
                     <ul>     
@@ -23,6 +20,9 @@
                     </ul>
                 <?php endif; ?>
             </div>
+	</div>
+
+        <div id="header_2">
         </div>
         
         <div id="header_3">
