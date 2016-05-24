@@ -114,7 +114,7 @@
                                 <td><img src="spinner.gif" id="loading" style="display:none"/></td>
                             </tr>
                         </table>
-                        <li> <img src="../img/attenzione.gif" class="campiObbligatori"/>*Campi obbligatori</li> 
+                        <li> <img src="../images/attenzione.gif" class="campiObbligatori"/>*Campi obbligatori</li> 
                     </form>
                 </div>
             </div>

@@ -14,11 +14,11 @@
                     <h2>Contattaci</h2>
                     <p>
                     <h3>Staff B&B - AMM</h3></br>
-                    <img src="../img/via.gif" width=15</a> Strada Provinciale n. 49 <br/>
-                    <img src="../img/mobile.png" width=15 </a> Tel. 070.930.4190
-                    <br/> <img src="../img/mobile.png" width=15 </a> Cell. 349.196.3977 <br/>
-				<img src="../img/mobile.png" width=15 </a> Cell. 340.837.9403<br/>
-				<img src="../img/email.png" width=15 </a> info@bbvillaserena.it
+                    <img src="../images/via.gif" width=15</a> Strada Provinciale n. 49 <br/>
+                    <img src="../images/mobile.png" width=15 </a> Tel. 070.930.4190
+                    <br/> <img src="../images/mobile.png" width=15 </a> Cell. 349.196.3977 <br/>
+				<img src="../images/mobile.png" width=15 </a> Cell. 340.837.9403<br/>
+				<img src="../images/email.png" width=15 </a> info@bbvillaserena.it
 				</p>
 
 		</div>

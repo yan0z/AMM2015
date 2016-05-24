@@ -22,7 +22,7 @@
             <?php if( $num == 0 ):?>
  		<div id="contenuti">		
                     <div class="box">
-                        <p> <img src="../img/stop.png" </a><strong>Nessuna prenotazione</strong> </p>
+                        <p> <img src="../images/stop.png" </a><strong>Nessuna prenotazione</strong> </p>
                     </div>
 		</div>
             <?php endif;?>

@@ -2,7 +2,7 @@
 <html>
     <body>
         <div id="header" >
-            <img src="../img/logo.png" class="logo"/></a>
+            <img src="../images/logo.png" class="logo"/></a>
             <div id="logIn"	>
                 <?php if (isset($_SESSION['logged'])):?>
                     <ul>     
