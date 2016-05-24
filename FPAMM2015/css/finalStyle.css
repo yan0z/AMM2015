@@ -40,8 +40,8 @@ body
    color: #000000;
 }
 
-#header{
-
+#header
+{
     width: 100%;
     background-color: #B0C826;
     height: 235px;
@@ -114,10 +114,10 @@ body
     text-align: left;
   }
   
- #menu-sx  p
- {
-  text-align: center;
- } 
+#menu-sx  p
+{
+    text-align: center;
+} 
 
 #menu-sx  li  
 {

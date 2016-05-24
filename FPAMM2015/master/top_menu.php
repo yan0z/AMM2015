@@ -2,8 +2,11 @@
 <html>
     <body>
         <div id="header" >
-            <h1>B&B - AMM</h1>
+            <div id='title'>
+                <h1>B&B - AMM</h1>
             <img src="../images/sfondo.png" class="logo"/>
+            </div>
+            
             <div id="logIn">
                 <?php if (isset($_SESSION['logged'])):?>
                     <ul>     
