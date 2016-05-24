@@ -15,7 +15,7 @@ body
 
 #title
 {
-    background-image: url(../images/sfondo.png);
+    
 }
 
 .logo
@@ -49,6 +49,7 @@ body
 {
     width: 100%;
     background-color: #B0C826;
+    background-image: url(../images/sfondo.png);
     height: 235px;
     padding-top: 20px;
     padding-bottom: 5px;
