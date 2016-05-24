@@ -50,7 +50,7 @@
 	    $telefono=mysql_result($risultati,$i,"telefono");
 	    $dataArrivo=mysql_result($risultati,$i,"dataArrivo");
 	    $dataPartenza=mysql_result($risultati,$i,"dataPartenza");
-            $numOspiti=mysql_result($risultati,$i,"ospiti");
+            $ospiti=mysql_result($risultati,$i,"ospiti");
             $doppia=mysql_result($risultati,$i,"doppia");
             $tripla=mysql_result($risultati,$i,"tripla"); 
     ?>
