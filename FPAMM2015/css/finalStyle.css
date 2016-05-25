@@ -250,13 +250,13 @@ float: left;
 .staff
 {
 display: block;
-padding: 15px;
+padding: 17px;
 margin-bottom: 10px;
 border-radius: 194px;
 margin-right: auto;
 margin-left: 0px;
-width: 450px;
-height: 300px;
+width: 160px;
+height: 160px;
 float: left;
 }
 
