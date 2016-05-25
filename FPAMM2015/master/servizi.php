@@ -13,23 +13,25 @@
                 <div class="box">
                     <h2>Tariffe</h2>
                     <table>
-                        <tr>
-                            <img src="../images/casa.jpg" class="illustrazione2" alt="La casa">
-                            <td>Camera singola</td>
-                            <td>&euro; 20,00</td>
-        		</tr>
-                        
-                        <tr>
-                            <img src="../images/casa.jpg" class="illustrazione2" alt="La casa">
-                            <td>Camera doppia</td>
-                            <td>&euro; 35,00</td>
-                        </tr>
-        		
-                        <tr>
-                            <img src="../images/casa.jpg" class="illustrazione2" alt="La casa">
-                            <td>Camera tripla</td>
-                            <td>&euro; 50,00</td>
-        		</tr>
+                        <tbody>
+                            <tr>
+                                <img src="../images/casa.jpg" class="illustrazione2" alt="La casa">
+                                <td>Camera singola</td>
+                                <td>&euro; 20,00</td>
+                            </tr>
+
+                            <tr>
+                                <img src="../images/casa.jpg" class="illustrazione2" alt="La casa">
+                                <td>Camera doppia</td>
+                                <td>&euro; 35,00</td>
+                            </tr>
+
+                            <tr>
+                                <img src="../images/casa.jpg" class="illustrazione2" alt="La casa">
+                                <td>Camera tripla</td>
+                                <td>&euro; 50,00</td>
+                            </tr>
+                        </tbody>   
                     </table>
                     
                     <li>
