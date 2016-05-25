@@ -14,20 +14,18 @@
                     <h2>Tariffe</h2>
                     <table>
                         <tbody>
+                            <img src="../images/casa.jpg" class="camere" alt="singola">
                             <tr>
-                                <img src="../images/casa.jpg" class="camere" alt="singola">
                                 <td>Camera singola</td>
                                 <td>&euro; 20,00</td>
                             </tr>
-
+                            <img src="../images/casa.jpg" class="camere" alt="doppia">
                             <tr>
-                                <img src="../images/casa.jpg" class="camere" alt="doppia">
                                 <td>Camera doppia</td>
                                 <td>&euro; 35,00</td>
                             </tr>
-
+                            <img src="../images/casa.jpg" class="camere" alt="tripla">  
                             <tr>
-                                <img src="../images/casa.jpg" class="camere" alt="tripla">
                                 <td>Camera tripla</td>
                                 <td>&euro; 50,00</td>
                             </tr>
