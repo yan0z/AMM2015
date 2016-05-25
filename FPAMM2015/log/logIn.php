@@ -38,7 +38,7 @@
         $query ="select * from utenti where username='$user' AND password='$pass'" ;
         $res = $mysqli->query($query);
 
-        if($res->num_rows == 1)
+        if($res->numrows == 1)
         {
             $array = mysqli_fetch_array($res);
             $_SESSION['username']  = $array['username'];
