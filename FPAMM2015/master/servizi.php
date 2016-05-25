@@ -49,7 +49,7 @@
                         </li>
                     </div>
                           
-                    
+                    </hr>
                     <li>
                         Gli arrivi sono previsti dalle ore 12.00 alle ore 15.00 e non oltre. 
                     </li>
