@@ -11,26 +11,36 @@
 	<?php include ('../master/sideDx.php');?>
             <div id="contentx">
                 <div class="box">
-                    <h2>Tariffario</h2>
+                    <h2>Tariffe</h2>
                     <table>
                         <tr>
+                            <img src="../images/casa.jpg" class="illustrazione2" alt="La casa">
                             <td>Camera singola</td>
                             <td>&euro; 20,00</td>
         		</tr>
                         
                         <tr>
+                            <img src="../images/casa.jpg" class="illustrazione2" alt="La casa">
                             <td>Camera doppia</td>
                             <td>&euro; 35,00</td>
                         </tr>
         		
                         <tr>
-                            <td >Camera tripla</td>
+                            <img src="../images/casa.jpg" class="illustrazione2" alt="La casa">
+                            <td>Camera tripla</td>
                             <td>&euro; 50,00</td>
         		</tr>
                     </table>
                     
-                    <li>Gli arrivi sono previsti dalle ore 12.00 alle ore 15.00 e non oltre. 
-                        Pagamento in contanti</li>
+                    <li>
+                        Gli arrivi sono previsti dalle ore 12.00 alle ore 15.00 e non oltre. 
+                    </li>
+                    <li>
+                        Si prega di lasciare libera la camera per le pulizie dalle ore 11.00 alle ore 12.00.
+                    </li>
+                    <li>
+                        Pagamento in contanti.
+                    </li>
                 </div>
             </div>
         </div>
