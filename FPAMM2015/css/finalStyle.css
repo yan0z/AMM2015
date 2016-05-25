@@ -58,8 +58,8 @@ body
     background-color: #B0C826;
     background-image: url(../images/sfondo.png);
     height: 180px;
-    padding-top: 20px;
-    padding-bottom: 5px;
+    padding-top: 1px;
+    padding-bottom: 10px;
 
 }
 
@@ -99,7 +99,7 @@ margin-right: 40px;
  #navigation li a
  {
   text-decoration:none;
-  color: #007861;
+  color: #000000;
 }
 
 #navigation li a:hover
