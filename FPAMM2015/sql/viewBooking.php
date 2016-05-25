@@ -20,7 +20,7 @@
  	<div id="content">
             <?php include ('../master/sideDx.php'); ?> 
             <?php if( $num == 0 ):?>
- 		<div id="contenuti">		
+ 		<div id="cotentx">		
                     <div class="box">
                         <p> <img src="../images/stop.png" </a><strong>Nessuna prenotazione</strong> </p>
                     </div>

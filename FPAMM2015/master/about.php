@@ -12,7 +12,7 @@
             <div id="contentx">
                 <div class="box">
                     <h1>About</h1>
-                    <p>Progetto finale di AMM</hr>
+                    <p><strong>Progetto finale di AMM</strong></br>
                        Il progetto consiste in un sito web per un B&B nel quale si potrenno prenotare delle camere da letto ad un costo a notte.</br>
                        Sono stati implementati due ruoli: Admin e User</p>
                     <p><strong>Amministratore</strong></br>
