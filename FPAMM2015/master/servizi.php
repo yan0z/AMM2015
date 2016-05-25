@@ -12,9 +12,9 @@
             <div id="contentx">
                 <div class="box">
                     <h2>Tariffe</h2>
-                    <img src="../images/casa.jpg" class="camere" alt="singola">
-                    <img src="../images/casa.jpg" class="camere" alt="doppia">
-                    <img src="../images/casa.jpg" class="camere" alt="tripla">
+                    <img src="../images/singola.jpg" class="camere" alt="singola">
+                    <img src="../images/doppia.jpg" class="camere" alt="doppia">
+                    <img src="../images/tripla.jpg" class="camere" alt="tripla">
                     <div id='camere'>
                         <ul>
                             <li>
