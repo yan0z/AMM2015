@@ -11,8 +11,8 @@
             <div id="contentx">
                 <div class="box">
                     <h2>Il B&B - AMM</h2>
-                    <img src="../images/casa.jpg" class="illustrazione2" alt="Giardino Villa Serena">
-                    <img src="../images/casa.jpg" class="illustrazione" alt="Giardino Villa Serena">
+                    <img src="../images/casa.jpg" class="illustrazione2" alt="La casa">
+                    <img src="../images/giardinocontavolo.jpg" class="illustrazione" alt="Il giardino">
                     <p>Situato in uno dei migliori quartieri di Cagliari ma lontano dal frastuono cittadino.<br/>
                        La villa, in stile moderno/rustico, offre tutto quello che un visitatore può sperare.
                        Anche se risulta vicino al centro, e' in una zona tranquilla dove i nostri visitatori possono godersi il sole e il cielo di Cagliari magari a bordo piscina.
