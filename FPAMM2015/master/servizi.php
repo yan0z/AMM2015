@@ -50,18 +50,20 @@
                     </div>
                           
                     </br>
-                    <li>
-                        Gli arrivi sono previsti dalle ore 12.00 alle ore 15.00 e non oltre. 
-                    </li>
-                    <li>
-                        Si prega di lasciare libera la camera per le pulizie dalle ore 11.00 alle ore 12.00.
-                    </li>
-                    <li>
-                        La colazione verrà servita a partire dalle ore 9.00.
-                    </li>
-                    <li>
-                        Pagamento in contanti.
-                    </li>
+                    <div id="regole">
+                        <li>
+                            Gli arrivi sono previsti dalle ore 12.00 alle ore 15.00 e non oltre. 
+                        </li>
+                        <li>
+                            Si prega di lasciare libera la camera per le pulizie dalle ore 11.00 alle ore 12.00.
+                        </li>
+                        <li>
+                            La colazione verrà servita a partire dalle ore 9.00.
+                        </li>
+                        <li>
+                            Pagamento in contanti.
+                        </li>    
+                    </div>
                 </div>
             </div>
         </div>
