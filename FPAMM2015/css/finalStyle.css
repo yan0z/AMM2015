@@ -295,3 +295,21 @@ float: left;
  margin-left: 500px;
 
 }
+
+#staff{
+display: inline-block;
+float: start;
+margin: auto;
+/* align-content: center; */
+/* margin-right: 140px; */
+padding-left: 330px;
+}
+
+#staff li{
+
+ float: left;
+padding: 5px;
+margin: 10px auto;
+list-style: none;
+margin-right: 40px;
+ }
