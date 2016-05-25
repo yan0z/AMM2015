@@ -12,11 +12,11 @@
             <div id="contentx">
                 <div class="box">
                     <h2>Staff B&B - AMM</h2>
-                    <img src="../images/boss.jpg" class="illustrazione2" alt="Boss">
-                    <img src="../images/cuoco.jpg" class="illustrazione2" alt="cuoco">
-                    <img src="../images/cameriera.jpg" class="illustrazione2" alt="cameriera">
-                    <img src="../images/giardiniere.jpg" class="illustrazione2" alt="giardiniere">
-                    <img src="../images/reception.png" class="illustrazione2" alt="receptionist">
+                    <img src="../images/boss.jpg" class="staff" alt="Boss">
+                    <img src="../images/cuoco.jpg" class="staff" alt="cuoco">
+                    <img src="../images/cameriera.jpg" class="staff" alt="cameriera">
+                    <img src="../images/giardiniere.jpg" class="staff" alt="giardiniere">
+                    <img src="../images/reception.png" class="staff" alt="receptionist">
                         <h3>Contatti</h3></br>
                         <li>
                             <ul>
