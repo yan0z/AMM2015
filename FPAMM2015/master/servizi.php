@@ -12,25 +12,42 @@
             <div id="contentx">
                 <div class="box">
                     <h2>Tariffe</h2>
-                    <table>
-                        <tbody>
-                            <img src="../images/casa.jpg" class="camere" alt="singola">
-                            <tr>
-                                <td>Camera singola</td>
-                                <td>&euro; 20,00</td>
-                            </tr>
-                            <img src="../images/casa.jpg" class="camere" alt="doppia">
-                            <tr>
-                                <td>Camera doppia</td>
-                                <td>&euro; 35,00</td>
-                            </tr>
-                            <img src="../images/casa.jpg" class="camere" alt="tripla">  
-                            <tr>
-                                <td>Camera tripla</td>
-                                <td>&euro; 50,00</td>
-                            </tr>
-                        </tbody>   
-                    </table>
+                    <div id='camere'>
+                        <img src="../images/casa.jpg" class="camere" alt="singola">
+                        <li>
+                            <ul>
+                                Camera doppia - uso singolo    
+                            </ul>
+                            <ul>
+                                &euro; 20,00
+                            </ul>
+                        </li>
+                    </div>
+                    
+                    <div id='camere'>
+                        <img src="../images/casa.jpg" class="camere" alt="singola">
+                        <li>
+                            <ul>
+                                Camera doppia    
+                            </ul>
+                            <ul>
+                                &euro; 35,00
+                            </ul>
+                        </li>
+                    </div>
+                    
+                    <div id='camere'>
+                        <img src="../images/casa.jpg" class="camere" alt="singola">
+                        <li>
+                            <ul>
+                                Camera tripla    
+                            </ul>
+                            <ul>
+                                &euro; 50,00
+                            </ul>
+                        </li>
+                    </div>
+                          
                     
                     <li>
                         Gli arrivi sono previsti dalle ore 12.00 alle ore 15.00 e non oltre. 
