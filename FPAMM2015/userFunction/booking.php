@@ -119,6 +119,6 @@
                 </div>
             </div>
         </div>
-        <? include('../master/footer.php');?>
+        <?php include('../master/footer.php');?>
     </body>
 </html>

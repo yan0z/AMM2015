@@ -11,7 +11,7 @@
 
         $query="SELECT * FROM prenotazioni";
 	$risultati=mysql_query($query);
-        $num=mysql_num_rows($risultati);
+        $num=mysql_numrows($risultati);
 
         mysql_close();
     ?>
@@ -37,7 +37,7 @@
                     $telefono=mysql_result($risultati,$i,"telefono");
                     $dataArrivo=mysql_result($risultati,$i,"dataArrivo");
                     $dataPartenza=mysql_result($risultati,$i,"dataPartenza");
-                    $numOspiti=mysql_result($risultati,$i,"ospiti");
+                    $ospiti=mysql_result($risultati,$i,"ospiti");
                     $doppia=mysql_result($risultati,$i,"doppia");
                     $tripla=mysql_result($risultati,$i,"tripla");
             ?>
