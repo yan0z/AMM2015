@@ -223,7 +223,7 @@ width: 1000px;
 
 .illustrazione
 {
-    display: block;
+display: block;
 padding: 15px;
 margin-bottom: 10px;
 border-radius: 194px;
@@ -231,11 +231,12 @@ margin-right: auto;
 margin-left: 0px;
 width: 450px;
 height: 300px;
+float: right;
 }
 
 .illustrazione2
 {
-    display: block;
+display: block;
 padding: 15px;
 margin-bottom: 10px;
 border-radius: 194px;
@@ -243,6 +244,7 @@ margin-right: auto;
 margin-left: 0px;
 width: 450px;
 height: 300px;
+float: left;
 }
 
 #footer_3

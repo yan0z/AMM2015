@@ -26,9 +26,6 @@
 
         <div id="header_2">
         </div>
-        
-        <div id="header_3">
-        </div>
 
         <div id="content">
             <div id="menu">
