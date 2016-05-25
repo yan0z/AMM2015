@@ -329,5 +329,22 @@ float: left;
 
 #camere
 {
-    float: right;
+    display: inline-block;
+float: start;
+margin: auto;
+/* align-content: center; */
+/* margin-right: 140px; */
+padding-left: 20px;
+font-size: 18px;
+}
+
+#camere li
+{
+    display: inline-block;
+float: start;
+margin: auto;
+/* align-content: center; */
+/* margin-right: 140px; */
+padding-left: 20px;
+font-size: 18px;
 }

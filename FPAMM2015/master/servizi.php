@@ -12,8 +12,10 @@
             <div id="contentx">
                 <div class="box">
                     <h2>Tariffe</h2>
+                    <img src="../images/casa.jpg" class="camere" alt="singola">
+                    <img src="../images/casa.jpg" class="camere" alt="doppia">
+                    <img src="../images/casa.jpg" class="camere" alt="tripla">
                     <div id='camere'>
-                        <img src="../images/casa.jpg" class="camere" alt="singola">
                         <ul>
                             <li>
                                 Camera doppia - uso singolo    
@@ -24,8 +26,7 @@
                         </ul>
                     </div>
                     
-                    <div id='camere'>
-                        <img src="../images/casa.jpg" class="camere" alt="singola">
+                    <div id='camere'> 
                         <ul>
                             <li>
                                 Camera doppia    
@@ -36,8 +37,7 @@
                         </ul>
                     </div>
                     
-                    <div id='camere'>
-                        <img src="../images/casa.jpg" class="camere" alt="singola">
+                    <div id='camere'>       
                         <ul>
                             <li>
                                 Camera tripla    
