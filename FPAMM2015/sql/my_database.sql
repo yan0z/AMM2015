@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS `prenotazioni` (
   `telefono` int(10) NOT NULL,
   `dataArrivo` date NOT NULL,
   `dataPartenza` date NOT NULL,
-  `numOspiti` int(10) NOT NULL,
+  `ospiti` int(10) NOT NULL,
   `doppia` int(10) NOT NULL,
   `tripla` int(10) NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
