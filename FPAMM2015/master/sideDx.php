@@ -26,14 +26,14 @@
                     </ul>
 
 
-        <?php else: ?>
+                <?php else: ?>
 
                 <ul>
                     <li><a href="../userFunction/booking.php"><strong>Prenota</strong></a></li>
                     <li><a href="../userFunction/viewBooking.php"><strong>Le mie Prenotazioni</strong></a></li>
                 </ul>
                
-        <?php endif;?>
+                <?php endif;?>
         <?php endif;?>
      <ul>   
 </ul>

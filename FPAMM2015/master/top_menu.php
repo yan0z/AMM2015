@@ -14,7 +14,7 @@
                         </li>
 		    </ul>
 	   
-                <?php else: ?>
+                <? else: ?>
                     <ul>
                         <li>
                             <a href='../log/logIn.php'><span>Login</span></a>

@@ -7,7 +7,7 @@
     ?>
     <body>
         <div id="content">
-            <? include ('../master/sideDx.php'); ?>
+            <?php include ('../master/sideDx.php'); ?>
             <div id="contentx">
                 <div class="box">
                     <h2>Il B&B - AMM</h2>
