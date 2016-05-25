@@ -8,22 +8,35 @@
     
     <body>
         <div id="content">
-            <? include ('../master/sideDx.php'); ?>
+            <?php include ('../master/sideDx.php'); ?>
             <div id="contentx">
                 <div class="box">
-                    <h2>Contattaci</h2>
-                    <p>
-                    <h3>Staff B&B - AMM</h3></br>
-                    <img src="../images/via.gif" width=15</a> Strada Provinciale n. 49 <br/>
-                    <img src="../images/mobile.png" width=15 </a> Tel. 070.930.4190
-                    <br/> <img src="../images/mobile.png" width=15 </a> Cell. 349.196.3977 <br/>
-				<img src="../images/mobile.png" width=15 </a> Cell. 340.837.9403<br/>
-				<img src="../images/email.png" width=15 </a> info@bbvillaserena.it
-				</p>
+                    <h2>Staff B&B - AMM</h2>
+                    <img src="../images/boss.jpg" class="illustrazione2" alt="Boss">
+                    <img src="../images/cuoco.jpg" class="illustrazione2" alt="cuoco">
+                    <img src="../images/cameriera.jpg" class="illustrazione2" alt="cameriera">
+                    <img src="../images/giardiniere.jpg" class="illustrazione2" alt="giardiniere">
+                    <img src="../images/reception.png" class="illustrazione2" alt="receptionist">
+                        <h3>Contatti</h3></br>
+                        <li>
+                            <ul>
+                                Via bellissima n. 100
+                            </ul>
+                            <ul>
+                                Tel. 1234567890
+                            </ul>
+                            <ul>
+                                Cell. 3401111111
+                            </ul>
+                            <ul>
+                                Email. infoAMM@hotmail.it
+                            </ul>
+                        </li>
+                    
 
 		</div>
             </div>
 	</div>
-	<? include('../master/footer.php');?>
+	<?php include('../master/footer.php');?>
     </body>
 </html>
