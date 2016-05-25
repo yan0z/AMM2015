@@ -31,6 +31,28 @@
                             <li>Transazione per la funzione deleteBooking che cancella tutte le prenotazioni dal database</li>
                         </ul>
                     </div>
+                    
+                    
+                    <div>
+                        <strong>Credenziali</strong>
+                        <ul>
+                            <li>
+                                <strong>ADMINISTRATOR</strong>
+                                <ul>
+                                    <li>Nome Utente: admin</li>
+                                    <li>Password: admin</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>USER</strong>
+                                <ul>
+                                    <li>Nome Utente: user</li>
+                                    <li>Password: user</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                   
                 </div>
             </div>
 	</div>
