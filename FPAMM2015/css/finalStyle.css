@@ -9,7 +9,7 @@ body
 
 #content
 { 
-    width:950px;
+    width:auto;
     margin:auto auto;
 }
 
@@ -36,18 +36,20 @@ body
     margin-right: 110px;
 }
 
-
+/*Login*/
 #logIn li 
 {
    list-style: none;
    list-style-image: url("../images/login.png");
 
 }
+
+/*Login*/
 #logIn li a
 {
-   
-   text-decoration:none;
+   font-size: 18px;
    color: #000000;
+   text-decoration:none;
 }
 
 #header
@@ -77,17 +79,21 @@ body
 }
 
 #navigation{
- display: inline-block;
-  float: start;
-  margin: auto;
+display: inline-block;
+float: start;
+margin: auto;
+/* align-content: center; */
+/* margin-right: 140px; */
+padding-left: 330px;
 }
 
  #navigation li{
 
-  float:left;
-  padding: 10px;
-  margin: 5px auto;
-  list-style: none;
+ float: left;
+padding: 5px;
+margin: 10px auto;
+list-style: none;
+margin-right: 40px;
  }
  
  #navigation li a
@@ -114,14 +120,18 @@ body
  #menu-sx
  {
     float: right;
-    padding: 30px;
-    border-radius: 120px;
-    margin: 0px auto;
-    color: #007861;
-    background-color: #ECB53F;
-    font-size: 20px;
-    line-height: 80px;
-    text-align: right;
+padding: 30px;
+/* border-radius: 0px; */
+margin: 5px;
+color: #000000;
+background-color: #DEE3AE;
+/* font-family: Verdana, Arial, Helvetica, sans-serif; */
+font-size: 13px;
+line-height: 30px;
+text-align: left;
+margin-right: 120px;
+/* border-color: black; */
+border: black solid 2px;
   }
   
 #menu-sx  p
@@ -149,11 +159,10 @@ list-style-type: square;
   /**COLONNA CENTRALE**/
 #contentx 
 {
-    width:630px;
-    margin-right: auto;
-    margin-left: auto;
-    padding:5px;
-    float: left;
+width: auto;
+margin-right: auto;
+padding: 5px;
+//float: center;
 }
 
 #contentx table 
@@ -198,33 +207,30 @@ h1,h2,h3
 
 .box
 {
-    background-color: #DEE3AE;
-    border:#DEE3AE solid 2px;
-    border-radius: 20px;
-    padding:30px;
-    margin-bottom: 20px;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    line-height: 30px;
-    text-align: justify;
-    height: auto;
-    width: auto;
+    background-color: #EBAF15;
+border: #272721 solid 2px;
+/* border-radius: 134px; */
+padding: 30px;
+margin-bottom: 20px;
+/* font-family: Verdana, Arial, Helvetica, sans-serif; */
+font-size: 21px;
+line-height: 30px;
+text-align: justify;
+height: auto;
+width: 1000px;
 }
 
 
 .illustrazione
 {
-
-display: block;
-padding: 10px;
+    display: block;
+padding: 15px;
 margin-bottom: 10px;
-border-radius: 25px;
+border-radius: 194px;
 margin-right: auto;
-margin-left: auto;
-width: 500px;
-height: 332px;
-
-
+margin-left: 0px;
+width: 450px;
+height: 300px;
 }
 #footer_3
 { clear:both;
