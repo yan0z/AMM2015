@@ -36,6 +36,7 @@
                     <li><a href="../master/master.php" ><strong>Home</strong></a></li>
                     <li><a href="../master/servizi.php"><strong>Camere e prezzi</strong></a></li>
                     <li><a href="../master/staff.php"><strong>Il nostro staff</strong></a></li>
+                    <li><a href="../master/about.php"><strong>About</strong></a></li>
                 </ul>
             </div>
 	</div>

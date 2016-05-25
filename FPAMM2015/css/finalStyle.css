@@ -114,15 +114,14 @@ body
  #menu-sx
  {
     float: right;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 9px auto;
+    padding: 30px;
+    border-radius: 120px;
+    margin: 0px auto;
     color: #007861;
-    background-color: #DEE3AE;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 30px;
-    text-align: left;
+    background-color: #ECB53F;
+    font-size: 20px;
+    line-height: 80px;
+    text-align: right;
   }
   
 #menu-sx  p
