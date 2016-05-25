@@ -11,7 +11,7 @@
 
         $query="SELECT * FROM prenotazioni";
 	$risultati=mysql_query($query);
-        $num=mysql_numrows($risultati);
+        $num=mysql_num_rows($risultati);
 
         mysql_close();
     ?>
