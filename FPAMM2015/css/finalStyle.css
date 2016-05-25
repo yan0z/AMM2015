@@ -232,6 +232,19 @@ margin-left: 0px;
 width: 450px;
 height: 300px;
 }
+
+.illustrazione2
+{
+    display: block;
+padding: 15px;
+margin-bottom: 10px;
+border-radius: 194px;
+margin-right: auto;
+margin-left: 0px;
+width: 450px;
+height: 300px;
+}
+
 #footer_3
 { clear:both;
      width: 100%;
