@@ -14,37 +14,38 @@
                     <h2>Tariffe</h2>
                     <div id='camere'>
                         <img src="../images/casa.jpg" class="camere" alt="singola">
-                        <li>
-                            <ul>
+                        <ul>
+                            <li>
                                 Camera doppia - uso singolo    
-                            </ul>
-                            <ul>
+                            </li>
+                            <li>
                                 &euro; 20,00
-                            </ul>
-                        </li>
+                            </li>
+                        </ul>
                     </div>
                     
                     <div id='camere'>
                         <img src="../images/casa.jpg" class="camere" alt="singola">
-                        <li>
-                            <ul>
+                        <ul>
+                            <li>
                                 Camera doppia    
-                            </ul>
-                            <ul>
+                            </li>
+                            <li>
                                 &euro; 35,00
-                            </ul>
-                        </li>
+                            </li>
+                        </ul>
                     </div>
                     
                     <div id='camere'>
                         <img src="../images/casa.jpg" class="camere" alt="singola">
-                        <li>
-                            <ul>
+                        <ul>
+                            <li>
                                 Camera tripla    
-                            </ul>
-                            <ul>
+                            </li>
+                            <li>
                                 &euro; 50,00
-                            </ul>
+                            </li>
+                        </ul>
                         </li>
                     </div>
                           
@@ -54,6 +55,9 @@
                     </li>
                     <li>
                         Si prega di lasciare libera la camera per le pulizie dalle ore 11.00 alle ore 12.00.
+                    </li>
+                    <li>
+                        La colazione verrà servita a partire dalle ore 9.00.
                     </li>
                     <li>
                         Pagamento in contanti.
