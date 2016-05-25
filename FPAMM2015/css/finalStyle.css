@@ -337,3 +337,11 @@ margin-left: -50px;
 font-size: 20px;
 }
 
+#camere li
+{
+display: inline-block;
+float: start;
+margin: auto;
+padding-left: 20px;
+font-size: 18px;
+}
