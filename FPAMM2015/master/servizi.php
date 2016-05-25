@@ -15,19 +15,19 @@
                     <table>
                         <tbody>
                             <tr>
-                                <img src="../images/casa.jpg" class="illustrazione2" alt="La casa">
+                                <img src="../images/casa.jpg" class="camere" alt="singola">
                                 <td>Camera singola</td>
                                 <td>&euro; 20,00</td>
                             </tr>
 
                             <tr>
-                                <img src="../images/casa.jpg" class="illustrazione2" alt="La casa">
+                                <img src="../images/casa.jpg" class="camere" alt="doppia">
                                 <td>Camera doppia</td>
                                 <td>&euro; 35,00</td>
                             </tr>
 
                             <tr>
-                                <img src="../images/casa.jpg" class="illustrazione2" alt="La casa">
+                                <img src="../images/casa.jpg" class="camere" alt="tripla">
                                 <td>Camera tripla</td>
                                 <td>&euro; 50,00</td>
                             </tr>
