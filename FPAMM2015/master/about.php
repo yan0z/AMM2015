@@ -11,31 +11,29 @@
             <?php include ('../master/sideDx.php'); ?>
             <div id="contentx">
                 <div class="box">
-                    <h1>Informazioni sul progetto</h1>
-        	<p>Url progetto : <a href="http://spano.sc.unica.it/amm2015/mallociFrancesca/servizi/index.php" target="_blank" onclick="window.open(this.href);return false;">B&B Villa Serena</a></br></p>
-            <p> Il progetto permette la prenotazione di una o piu' stanze presso il B&B Villa Serena </br></p>
-            <p>Sono presenti due ruoli: utente e amministratore</br></p>
-            <p><strong>Utente</strong></br></p>
-            <p>l'utente è in grado di prenotare una o piu' stanze e visualizzare le proprie prenotazioni</br></p>
-            <p><strong>Amministratore</strong></br></p>
-            <p>l'amministratore è in grado di visualizzare le prenotazioni effettuate presso il B&B Villa Serena secondo tre criteri di ricerca:</br> Nome, Cognome, Data di Arrivo
-            </br>E' possibile inoltre cancellare tutte le prenotazioni effettuate presso il B&B Villa Serena</p>
+                    <h1>About</h1>
+                    <p>Progetto finale di AMM</hr>
+                       Il progetto consiste in un sito web per un B&B nel quale si potrenno prenotare delle camere da letto ad un costo a notte.</br>
+                       Sono stati implementati due ruoli: Admin e User</p>
+                    <p><strong>Amministratore</strong></br>
+                        L'amministratore visualizza le prenotazioni effettuate dagli utenti e cancella tutte le prenotazioni</p>
+                    <p><strong>Utente</strong></br>
+                        L'utente potrà prenotare e visualizzare le sue prenotazioni</p></br>
+                    
 
-            <p><strong> Requisiti soddisfatti: </strong>
-                <ul>
-                    <li>Utilizzo di HTML e CSS</li>
-                    <li>Utilizzo di PHP e MySQL</li>
-                    <li>Due ruoli (amministratore ed utente)</li>
-                    <li>Caricamento ajax dei risultati della ricerca delle prenotazioni(ruolo amministratore)</li>
-                    <li>Transazione: la funzione eliminaPrenotazioni cancella tutte le prenotazioni dal database</li>
-                    <li>Credenziali di autenticazione e link alla homepage</li>
-                </ul>
-            </p>
-
-			</div>
-			</div>
-		</div>
-		<?php include('../master/footer.php');?>
-	</body>
-
+                    <div>
+                        <strong>Requisiti e tecnologie</strong>
+                        <ul>
+                            <li>Utilizzo di HTML e CSS</li>
+                            <li>Utilizzo di PHP e MySQL</li>
+                            <li>Ruolo di Admin e User</li>
+                            <li>Implementazione ajax dei risultati di prenotazione e ricerca (Admin)</li>
+                            <li>Transazione per la funzione deleteBooking che cancella tutte le prenotazioni dal database</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+	</div>
+	<?php include('../master/footer.php');?>
+    </body>
 </html>

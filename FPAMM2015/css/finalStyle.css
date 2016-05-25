@@ -250,13 +250,13 @@ float: left;
 .staff
 {
 display: block;
-padding: 17px;
+padding: 18px;
 margin-bottom: 10px;
-border-radius: 194px;
+border-radius: 60px;
 margin-right: auto;
-margin-left: 0px;
-width: 160px;
-height: 160px;
+margin-left: 3px;
+width: 150px;
+height: 150px;
 float: left;
 }
 
@@ -302,14 +302,14 @@ float: start;
 margin: auto;
 /* align-content: center; */
 /* margin-right: 140px; */
-padding-left: 330px;
+padding-left: 20px;
+font-size: 18px;
 }
 
 #staff li{
-
- float: left;
+float: left;
 padding: 5px;
-margin: 10px auto;
+margin: -5px auto;
 list-style: none;
-margin-right: 40px;
+margin-right: 47px;
  }
