@@ -33,7 +33,7 @@
                             Tel: 1234567890
                         </li>
                         <li>
-                            Cel: 3401234567
+                            Cell: 3401234567
                         </li>
                         <li>
                             Email: emailbebAmm@hotmail.it
