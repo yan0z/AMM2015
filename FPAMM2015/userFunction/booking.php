@@ -11,7 +11,7 @@
 
     <?php  if(isset($_POST['prenota'])):
             $errore = true;
-            $db = mysql_connect(DB_SERVER,DB_USER , DB_PASS) or die ("Impossibile connettersi al server");
+            $db = mysql_connect(DB_SERVER, DB_USER , DB_PASS) or die ("Impossibile connettersi al server");
             mysql_select_db(DB_NAME, $db) or die ("Impossibile connettersi al database");
 
             //Salvataggio dati in input
