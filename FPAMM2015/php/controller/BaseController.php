@@ -1,6 +1,6 @@
 <?php
 
-include_once basename(__DIR__) . '/../view/ViewDescriptor.php';
+include_once basename(__DIR__) . '/../view/viewDescriptor.php';
 include_once basename(__DIR__) . '/../model/User.php';
 include_once basename(__DIR__) . '/../model/UserFactory.php';
 
