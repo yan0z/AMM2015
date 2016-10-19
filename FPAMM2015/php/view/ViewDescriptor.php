@@ -86,7 +86,7 @@ class ViewDescriptor {
      * menu di navigazione
      * @var string
      */
-    private $navigationBar;
+    public $navigationBar;
     
     
     private $logIn;
