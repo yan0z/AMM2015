@@ -30,7 +30,6 @@ class BaseController {
     public function handleInput(&$request) {
         // creo il descrittore della vista
         $vd = new ViewDescriptor();
-
         // imposto la pagina
         $vd->setPagina($request['page']);
         // imposto il token per impersonare un utente
