@@ -87,10 +87,7 @@ class ViewDescriptor {
      * @var string
      */
     public $navigationBar;
-    
-    
-    private $logIn;
-    
+     
     /**
      * parte di fondo della pagina
      * @var string

@@ -1,5 +1,5 @@
 <?php
-include_once 'ViewDescriptor.php';
+include_once basename(__DIR__) .'/../view/ViewDescriptor.php';
 include_once basename(__DIR__) . '/../Settings.php';
 
 if (!$vd->isJson()) {
