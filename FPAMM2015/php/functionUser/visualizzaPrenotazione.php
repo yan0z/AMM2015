@@ -7,18 +7,17 @@ include_once basename(__DIR__) . '/../controller/UserController.php';
     <body>
  	<div id="contentx">
             <div class="box">
-                <p>In questa sezione puoi vedere lo storico delle tue prenotazioni. E' permessa la cancellazione.</p>
+                <table class="tblprenotazioneintestazione">
+                    <tr>
+                        <td>Nome</td>
+                        <td>Cognome</td>
+                        <td>Email</td>
+                        <td>Arrivo</td>
+                        <td>Partenza</td>
+                        <td>Cancella</td>
+                    </tr>
+                </table>
                 <div class="box2">
-                    <table class="tblprenotazioneintestazione">
-                        <tr>
-                            <td>Nome</td>
-                            <td>Cognome</td>
-                            <td>Email</td>
-                            <td>Arrivo</td>
-                            <td>Partenza</td>
-                            <td>Cancella</td>
-                        </tr>
-                    </table>
                     <div class="visulizza">  
                         <?php
                         //conto quante occorrenze sono presenti nell'array $prenotazioni
