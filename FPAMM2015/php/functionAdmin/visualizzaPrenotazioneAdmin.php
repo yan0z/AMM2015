@@ -11,7 +11,7 @@ include_once basename(__DIR__) . '/../controller/UserController.php';
                 <?php
                 $num = count($prenotazioni);
                 if(count($prenotazioni)>0){ ?>
-                <table class="tblprenotazione">
+                <table class="tblprenotazioneintestazione">
                     <tr>
                         <td>Nome</td>
                         <td>Cognome</td>

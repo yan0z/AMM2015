@@ -2,9 +2,7 @@
 body
 {
     margin:0px 0px 0px 0px;
-    //font-family:  Helvetica, Arial, sans-serif;
     background: burlywood;
-
 }
 
 
@@ -15,37 +13,12 @@ body
     //padding-top: 200px;
 }
 
-
 .logo
 {
     margin: 0 auto;
     display: block;
     padding: 0px;
     width:350px;
-}
-
-#logIn 
-{
-    margin-left: -100px;
-    //margin-top: 50px;
-    float: right;
-    margin-right: 110px;
-}
-
-/*Login*/
-#logIn li 
-{
-   list-style: none;
-   list-style-image: url("../images/login.png");
-
-}
-
-/*Login*/
-#logIn li a
-{
-   font-size: 18px;
-   color: #000000;
-   text-decoration:none;
 }
 
 #header_logo
@@ -58,7 +31,6 @@ body
     border: 2px solid #222;
     position: relative;
     margin: auto;
-    /* padding: 0%; */
 }
 
 /*Form per il login*/
@@ -301,7 +273,6 @@ float: left;
     margin-left: 12px;
     width: 140px;
     height: 150px;
-    //float: left;
 }
 
 
@@ -331,8 +302,6 @@ float: left;
     display: inline-block;
     float: start;
     margin: auto;
-    /* align-content: center; */
-    /* margin-right: 140px; */
     padding-left: 20px;
     font-size: 18px;
 }
@@ -530,7 +499,14 @@ float: left;
     font-size: 13px;
 }
 
-.tblprenotazione
+.tblprenotazioneintestazione
 {
     posizion: fixed;
+    width: 100%;
+    margin-left:10px;
+}
+.tblprenotazioneintestazione
+{
+    width: 100%;
+    margin-left:10px;
 }
