@@ -208,7 +208,7 @@ body
 #contentx table td 
 {
     padding: 10px 10px 10px 0;
-    width: 200px;
+    width: 95px;
     font-weight: bold;
 }
 
@@ -246,6 +246,7 @@ h1,h2,h3
     margin: auto;
     height: 400px;
     overflow:auto;
+    margin-top: 60px;
 }
 
 /*Immagine homepage user*/
@@ -508,8 +509,8 @@ h1,h2,h3
 }
 .tblprenotazione
 {
-    width: 100%;
-    margin-left:10px;
+    width: 90%;
+    margin-left: 88px;
     font-size: 17px;
 }
 
