@@ -24,7 +24,7 @@ include_once basename(__DIR__) . '/../controller/UserController.php';
                 $num = count($prenotazioni);
                 //se sono presenti prenotazioni allora procediamo a stamparla
                 if(count($prenotazioni)>0){ ?>
-                <table>
+                <table class="tblprenotazione">
                     <?php
                     for($i=0; $i<$num; $i++){  ?>
                         <tr> 
