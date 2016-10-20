@@ -9,7 +9,7 @@ include_once basename(__DIR__) . '/../controller/UserController.php';
             <div class="box">
                 <p>In questa sezione puoi vedere lo storico delle tue prenotazioni. E' permessa la cancellazione.</p>
                 <div class="box2">
-                <table class="tblprenotazione">
+                <table class="tblprenotazioneintestazione">
                     <tr>
                         <td>Nome</td>
                         <td>Cognome</td>
