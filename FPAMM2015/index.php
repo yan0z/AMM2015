@@ -9,7 +9,7 @@
         <p>
             Potete scaricare il codice direttamente dal web o facendo un git clone
             al seguente indirizzo 
-            <a href="https://github.com/davidespano/esAMM2014">https://github.com/davidespano/esAMM2014</a>
+            
         </p>
 
         <h2> Descrizione dell'applicazione </h2>
