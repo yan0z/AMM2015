@@ -9,7 +9,7 @@
         <p>
             Potete scaricare il codice direttamente dal web o facendo un git clone
             al seguente indirizzo 
-            
+            <a href="https://github.com/yan0z/AMM2015.git">GIT</a>
         </p>
 
         <h2> Descrizione dell'applicazione </h2>
