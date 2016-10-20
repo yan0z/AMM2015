@@ -7,16 +7,13 @@ include_once basename(__DIR__) . '/../controller/UserController.php';
     <body>
  	<div id="contentx">
             <div class="box">
-                <table class="tblprenotazioneintestazione">
-                    <tr>
-                        <td>Nome</td>
-                        <td>Cognome</td>
-                        <td>Email</td>
-                        <td>Arrivo</td>
-                        <td>Partenza</td>
-                        <td>Cancella</td>
-                    </tr>
-                </table>
+                <ul class="intestazioni">
+                    <li>Nome</li>
+                    <li class="licognome">Cognome</li>
+                    <li class="liemail">Email</li>
+                    <li>Arrivo</li>
+                    <li class="lipartenza">Partenza</li>  
+                </ul>
                 <div class="box2">
                     <div class="visulizza">  
                         <?php

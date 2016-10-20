@@ -7,24 +7,20 @@ include_once basename(__DIR__) . '/../controller/UserController.php';
     <body>
  	<div id="contentx">
             <div class="box">
-                <p>In questa sezione puoi vedere la lista di tutte le prenotazioni. E' permessa la cancellazione.</p>
                 <?php
                 $num = count($prenotazioni);
                 if(count($prenotazioni)>0){ ?>
-                <table class="tblprenotazioneintestazioneadmin">
-                    <tr>
-                        <td>Nome</td>
-                        <td>Cognome</td>
-                        <td>Email</td>
-                        <td>Arrivo</td>
-                        <td>Partenza</td>
-                        <td>S</td>
-                        <td>D</td>
-                        <td>T</td>
-                        <td>IdCliente</td>
-                        <td>Cancella</td>
-                    </tr>
-                </table>
+                <ul class="intestazioniadmin">
+                    <li>Nome</li>
+                    <li class="licognomea">Cognome</li>
+                    <li class="liemaila">Email</li>
+                    <li>Arrivo</li>
+                    <li class="lipartenzaa">Partenza</li>
+                    <li class="lisingola">s</li>
+                    <li class="lidoppia">d</li>
+                    <li class="litripla">t</li>
+                    <li class="licliente">idCliente</li>
+                </ul>
                 <?php 
                 } 
                 ?>
