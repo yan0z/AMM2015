@@ -529,3 +529,8 @@ float: left;
 {
     font-size: 13px;
 }
+
+.tblprenotazione
+{
+    display: inline-block;
+}

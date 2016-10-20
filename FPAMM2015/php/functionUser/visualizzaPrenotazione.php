@@ -8,6 +8,7 @@ include_once basename(__DIR__) . '/../controller/UserController.php';
  	<div id="contentx">
             <div class="box">
                 <p>In questa sezione puoi vedere lo storico delle tue prenotazioni. E' permessa la cancellazione.</p>
+                <div class="box2">
                 <table class="tblprenotazione">
                     <tr>
                         <td>Nome</td>
@@ -18,7 +19,6 @@ include_once basename(__DIR__) . '/../controller/UserController.php';
                         <td>Cancella</td>
                     </tr>
                 </table>
-                <div class="box2">
                 <?php
                 //conto quante occorrenze sono presenti nell'array $prenotazioni
                 $num = count($prenotazioni);
