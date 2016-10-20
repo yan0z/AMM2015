@@ -15,10 +15,6 @@ include_once basename(__DIR__) . '/../controller/UserController.php';
                         <td>Email</td>
                         <td>Arrivo</td>
                         <td>Partenza</td>
-                        <td>S</td>
-                        <td>D</td>
-                        <td>T</td>
-                        <td>IdCliente</td>
                         <td>Cancella</td>
                     </tr>
                 </table>

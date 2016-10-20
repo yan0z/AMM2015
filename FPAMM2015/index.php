@@ -8,7 +8,7 @@
         <h1>Accesso all'applicazione del progetto</h1>
         <p>
             Potete scaricare il codice direttamente dal web o facendo un git clone
-            al seguente indirizzo 
+            al seguente indirizzo:
             <a href="https://github.com/yan0z/AMM2015.git">GIT</a>
         </p>
 
@@ -43,7 +43,7 @@
             <li>Utilizzo di PHP e MySQL</li>
             <li>Utilizzo del pattern MVC </li>
             <li>Due ruoli (user e admin)</li>
-            <li>Transazione per la registrazione degli esami (metodo salvaElenco della classe EsameFactory.php)</li>
+            <li>Transazione per la prenotazione delle camere</li>
         </ul>
 
     <h2>Accesso al progetto</h2>
