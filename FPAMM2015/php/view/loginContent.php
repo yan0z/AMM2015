@@ -5,6 +5,7 @@
                 <h1>Accedi ed effettua le tue prenotazioni!</h1>
                 <table id="tbllogin">
                     <tr>
+                        ciao
                         <td><div class="img"></div></td>
                         <td>
                             <div class="formlogin">
