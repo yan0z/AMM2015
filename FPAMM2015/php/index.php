@@ -1,4 +1,5 @@
 <?php
+    ini_set('display_error', '0');
     include_once 'controller/BaseController.php';
     include_once 'controller/UserController.php';
     include_once 'controller/AdminController.php';
