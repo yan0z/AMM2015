@@ -245,7 +245,7 @@ h1,h2,h3
     width: 900px;
     margin: auto;
     height: 400px;
-    //overflow:auto;
+    overflow:auto;
 }
 
 /*Immagine homepage user*/
@@ -509,5 +509,4 @@ h1,h2,h3
 {
     width: 100%;
     margin-left:10px;
-    overflow:auto;
 }
