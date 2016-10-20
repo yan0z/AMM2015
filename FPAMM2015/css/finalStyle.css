@@ -502,11 +502,19 @@ h1,h2,h3
 .tblprenotazioneintestazione
 {
     position: absolute;
-    width: 100%;
-    margin-left:10px;
+    width: 65%;
+    margin-left: 15px;
+    border: solid;
 }
 .tblprenotazione
 {
     width: 100%;
     margin-left:10px;
+    font-size: 17px;
 }
+
+.tblprenotazione tr td
+{
+    margin-left: 20px;
+}
+
