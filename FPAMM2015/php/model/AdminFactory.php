@@ -1,7 +1,7 @@
 <?php
-include_once 'User.php';
-include_once 'Admin.php';
-include_once 'DataBase.php';
+include_once basename(__DIR__) . '/../model/User.php';
+include_once basename(__DIR__) . '/../model/Admin.php';
+include_once basename(__DIR__) . '/../model/DataBase.php';
 /**
  * Classe per la creazione di funzionalità dell'admin del sistema
  *

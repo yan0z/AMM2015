@@ -1,5 +1,5 @@
 <?php
-include_once 'UserController.php';
+include_once basename(__DIR__) . '/../controller/UserController.php';
 /**
  * Estende tutte le funzionalità di UserController
  * 

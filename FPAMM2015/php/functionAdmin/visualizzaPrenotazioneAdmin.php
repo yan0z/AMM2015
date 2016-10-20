@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-    include_once 'UserController.php';
+include_once basename(__DIR__) . '/../controller/UserController.php';
 ?>
 
 <html>

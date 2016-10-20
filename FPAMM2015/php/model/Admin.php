@@ -1,5 +1,5 @@
 <?php
-include_once 'User.php';
+include_once basename(__DIR__) . '/../model/User.php';
 /**
  * Classe che rappresenta un amministratore del sistema,
  * eredita tutte le funzionalità di un utente generico.

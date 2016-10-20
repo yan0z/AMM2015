@@ -1,9 +1,9 @@
 <?php
     ini_set('display_errors', 0);
     error_reporting(0);
-    include_once 'controller/BaseController.php';
-    include_once 'controller/UserController.php';
-    include_once 'controller/AdminController.php';
+    include_once basename(__DIR__) . 'controller/BaseController.php';
+    include_once basename(__DIR__) . 'controller/UserController.php';
+    include_once basename(__DIR__) . 'controller/AdminController.php';
     date_default_timezone_set("Europe/Rome");
     
     // punto unico di accesso all'applicazione

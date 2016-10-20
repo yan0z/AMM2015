@@ -1,8 +1,8 @@
 <?php
-include_once 'User.php';
-include_once 'Admin.php';
-include_once 'DataBase.php';
-include_once 'AdminFactory.php';
+include_once basename(__DIR__) . '/../model/User.php';
+include_once basename(__DIR__) . '/../model/Admin.php';
+include_once basename(__DIR__) . '/../model/DataBase.php';
+include_once basename(__DIR__) . '/../model/AdminFactory.php';
 include_once basename(__DIR__) . '/../view/ViewDescriptor.php';
 /**
  * Classe per la creazione di funzionalità degli utenti del sistema
