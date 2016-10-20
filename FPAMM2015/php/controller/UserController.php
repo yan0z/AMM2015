@@ -1,5 +1,5 @@
 <?php
-include_once basename(__DIR__) . '/../controller/BaseController.php';
+include_once 'BaseController.php';
 /**
  * Controller che gestisce gli utenti autenticati
  *

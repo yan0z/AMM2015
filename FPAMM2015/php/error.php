@@ -1,5 +1,5 @@
 <?php
-include_once basename(__DIR__) . '/../php/Settings.php';
+include_once 'Settings.php';
 ?>
 <!DOCTYPE html>
 <html>
