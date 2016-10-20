@@ -532,5 +532,5 @@ float: left;
 
 .tblprenotazione
 {
-    display: inline-block;
+    posizion: fixed;
 }
