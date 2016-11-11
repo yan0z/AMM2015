@@ -14,11 +14,8 @@ include_once basename(__DIR__) . '/../controller/UserController.php';
                     <li>Nome</li>
                     <li class="licognomea">Cognome</li>
                     <li class="liemaila">Email</li>
-                    <li>Arrivo</li>
+                    <li class="liarrivoa">Arrivo</li>
                     <li class="lipartenzaa">Partenza</li>
-                    <li class="lisingola">s</li>
-                    <li class="lidoppia">d</li>
-                    <li class="litripla">t</li>
                     <li class="licliente">idCliente</li>
                 </ul>
                 <?php 
@@ -27,14 +24,15 @@ include_once basename(__DIR__) . '/../controller/UserController.php';
                 <div class="box2">
                 <?php
                 if(count($prenotazioni)>0){ ?>
-                <table class="tblprenotazione">
+                <table class="tblprenotazioneAdmin">
                     <?php
                     for($i=0; $i<$num; $i++){  ?>
                         <tr> 
                         <?php 
-                        for($j=1; $j<10; $j++){ ?>
+                        for($j=1; $j<6; $j++){ ?>
                             <td><?php echo $prenotazioni[$i][$j];?></td>
                         <?php } ?>
+                            <td><?php echo $prenotazioni[$i][9];?></td>
                             <td><a href="index.php?page=admin&subpage=visualizzaPrenotazioneAdmin&cmd=cancellaPrenotazioneAdmin&id=<?= $idPre=$prenotazioni[$i][0] ?><?= $vd->scriviToken('&') ?>" title="cancella prenotazione">
                                     <img src="../images/no.png" class="comando" alt="Elimina" >
                                 </a>
@@ -53,12 +51,16 @@ include_once basename(__DIR__) . '/../controller/UserController.php';
                 }
                 ?>
                 </div>
+                <ul id="navigation3">
                 <?php
                 if(count($prenotazioni)>0){ ?>
-                    <a href="index.php?page=admin&subpage=visualizzaPrenotazioneAdmin&cmd=cancellaTuttoAdmin<?= $vd->scriviToken('&') ?>" title="cancella tutto" class="comando">Cancella tutto</a>
+                    <li>
+                        <a href="index.php?page=admin&subpage=visualizzaPrenotazioneAdmin&cmd=cancellaTuttoAdmin<?= $vd->scriviToken('&') ?>" title="cancella tutto" class="comando"><strong>Cancella tutto</strong></a>
+                    </li>
                 <?php
                 }
                 ?>
+                </ul>
             </div>
 	</div>
     </body>

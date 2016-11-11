@@ -578,3 +578,48 @@ h1,h2,h3
 {
     margin-left: -27px;
 }
+.licliente
+{
+    margin-left: -24px;
+}
+.tblprenotazioneAdmin
+{
+    width: 90%;
+    margin-left: 60px;
+    font-size: 17px;
+}
+#navigation3
+{
+    display: inline-block;
+    margin: auto;
+    margin-left: 660px;
+}
+
+#navigation3 li
+{
+    float: left;
+    padding: 5px;
+    margin: 10px auto;
+    list-style: none;
+    margin-right: 40px;
+}
+ 
+#navigation3 li a
+{
+    text-decoration:none;
+    color: #000000;
+}
+
+#navigation3 li a:hover
+{
+    background-color: #F0E68C;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ 
+#navigation3 li a:active
+{
+    background-color:#F0E68C;
+    padding: 10px;
+    border-radius: 10px;
+}
