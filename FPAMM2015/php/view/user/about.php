@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <?php 
-        session_start(); 
-	include ('../master/header.php'); 
-	include ('../master/top_menu.php');
-    ?>
-
-    <body>
+<body>
 	<div id="content">
             <div id="contentx">
                 <div class="box">
@@ -43,13 +37,12 @@
                             <li>Utilizzo di PHP e MySQL</li>
                             <li>Utilizzo del pattern MVC </li>
                             <li>Due ruoli (user e admin)</li>
-                            <li>Transazione per la registrazione degli esami (metodo salvaElenco della classe EsameFactory.php)</li>
+                            <li>Transazione per la prenotazione camera</li>
                         </ul>
                     </div>
                     <hr/>
                 </div>
             </div>
 	</div>
-	<?php include('../master/footer.php');?>
     </body>
 </html>
