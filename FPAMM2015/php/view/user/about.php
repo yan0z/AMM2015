@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 	<div id="content">
             <div id="contentx">
                 <div class="box">
