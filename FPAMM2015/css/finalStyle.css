@@ -543,7 +543,8 @@ h1,h2,h3
 
 .intestazioniadmin
 {
-    margin-left: 0px;
+    margin-left: -30px;
+    font-style: italic;
 }
 .intestazioniadmin li
 {
@@ -572,11 +573,15 @@ h1,h2,h3
 }
 .licognomea
 {
-    margin-left: -27px;
+    margin-left: 10px;
+}
+.liarrivoa
+{
+    margin-left: -35px;
 }
 .lipartenzaa
 {
-    margin-left: -27px;
+    margin-left: 0px;
 }
 .licliente
 {
