@@ -10,21 +10,24 @@ include_once basename(__DIR__) . '/../controller/UserController.php';
                 <?php
                 $num = count($prenotazioni);
                 if(count($prenotazioni)>0){ ?>
-                <ul class="intestazioniadmin">
-                    <li>Nome</li>
-                    <li class="licognomea">Cognome</li>
-                    <li class="liemaila">Email</li>
-                    <li class="liarrivoa">Arrivo</li>
-                    <li class="lipartenzaa">Partenza</li>
-                    <li class="licliente">idCliente</li>
-                </ul>
+                <table class="tblprenotazione">
+                    <tr>
+                        <td>Nome</td>
+                        <td>Cognome</td>
+                        <td>Email</td>
+                        <td>Arrivo</td>
+                        <td>Partenza</td>
+                        <td>Cliente</td>
+                        <td></td>
+                    </tr>
+                </table>
                 <?php 
                 } 
                 ?>
                 <div class="box2">
                 <?php
                 if(count($prenotazioni)>0){ ?>
-                <table class="tblprenotazioneAdmin">
+                <table class="tblprenotazione">
                     <?php
                     for($i=0; $i<$num; $i++){  ?>
                         <tr> 

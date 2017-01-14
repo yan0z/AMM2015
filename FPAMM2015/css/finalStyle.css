@@ -246,7 +246,7 @@ h1,h2,h3
     margin: auto;
     height: 360px;
     overflow:auto;
-    margin-top: 60px;
+    //margin-top: 60px;
 }
 
 /*Immagine homepage user*/
@@ -504,36 +504,23 @@ h1,h2,h3
 {
     margin-left: -25px;
     font-style: italic;
+    text-align: center;
 }
 
 .intestazioni li
 {
-    //position: absolute;
+    position: absolute;
     float: left;
     list-style: none;
     padding-left: 75px;
 }
 
-.liemail
-{
-    margin-left: 35px;
-    margin-right: 52px;
-}
-.licognome
-{
-    margin-left: -27px;
-}
-.lipartenza
-{
-    margin-left: -27px;
-}
-
-
 .tblprenotazione
 {
     width: 90%;
-    margin-left: 88px;
+    margin-left: 65px;
     font-size: 17px;
+    text-align: center;
 }
 
 .tblprenotazione tr td
@@ -541,58 +528,6 @@ h1,h2,h3
     margin-left: 20px;
 }
 
-.intestazioniadmin
-{
-    margin-left: -30px;
-    font-style: italic;
-}
-.intestazioniadmin li
-{
-    float: left;
-    list-style: none;
-    padding-left: 45px;
-}
-
-.lisingola
-{
-    
-}
-.lidoppia
-{
-    
-}
-.litripla
-{
-    
-}
-
-.liemaila
-{
-    margin-left: 35px;
-    margin-right: 52px;
-}
-.licognomea
-{
-    margin-left: 10px;
-}
-.liarrivoa
-{
-    margin-left: -35px;
-}
-.lipartenzaa
-{
-    margin-left: 0px;
-}
-.licliente
-{
-    margin-left: -24px;
-}
-.tblprenotazioneAdmin
-{
-    width: 90%;
-    margin-left: 60px;
-    font-size: 17px;
-}
 #navigation3
 {
     display: inline-block;
