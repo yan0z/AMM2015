@@ -34,7 +34,6 @@ class BaseController {
         $vd->setPagina($request['page']);
         // imposto il token per impersonare un utente
         $this->setImpToken($vd, $request);
-
         // gestion dei comandi
         // tutte le variabili che vengono create senza essere utilizzate 
         // direttamente in questo switch, sono quelle che vengono poi lette
@@ -56,7 +55,6 @@ class BaseController {
             }
         } else {
             if ($this->loggedIn()) {
-                //session_destroy();
                 //utente autenticato
                 // questa variabile viene poi utilizzata dalla vista
                 $user = UserFactory::instance()->cercaUtentePerId($_SESSION[self::user], $_SESSION[self::role]);
@@ -154,7 +152,6 @@ class BaseController {
             $vd->setImpToken($request['_imp']);
         }
     }
-
     /**
      * Procedura di autenticazione 
      * @param ViewDescriptor $vd descrittore della vista

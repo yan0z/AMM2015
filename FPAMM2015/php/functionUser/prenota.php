@@ -62,11 +62,12 @@ include_once basename(__DIR__) . '/../controller/UserController.php';
                     </td>
                     <td class="visualizzaEmessaggi">
                         <ul>
-                            <li class="consigliutili"><div>Inserire i dati personali per procedere alla prenotazione.</br>
-                                                         A seconda della stanza scelta inserire:</br> 
-                                                         1 (selezione)</br>
-                                                         0 (deselezione)</br>
-                                                      </div>
+                            <li class="consigliutili">
+                                <div>Inserire i dati personali per procedere alla prenotazione.</br>
+                                A seconda della stanza scelta inserire:</br> 
+                                1 (selezione)</br>
+                                0 (deselezione)</br>
+                                </div>
                             </li>
                             <li class="<?= $vd->getSottoPagina() == 'visualizzaPrenotazione' ? 'current_page_item' : '' ?>"><a href="index.php?page=user&subpage=visualizzaPrenotazione<?= $vd->scriviToken('?')?>"><strong>Le mie Prenotazioni</strong></a></li>
                             <li>

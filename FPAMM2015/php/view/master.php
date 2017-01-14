@@ -21,7 +21,8 @@ include_once basename(__DIR__) . '/../Settings.php';
         <title>B&B AMM</title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <base href="<?= Settings::getApplicationPath() ?>php/"/>
-        <meta name="keywords" content="B&B AMM" />
+        <meta name="keywords" content="HTML CSS PHP JS" />
+        <meta name="author" content="Carta Stefano"/>
         <link href="../css/finalStyle.css" rel="stylesheet" type="text/css" media="screen" />
     </head>
     <body>

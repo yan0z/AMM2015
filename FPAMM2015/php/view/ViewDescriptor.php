@@ -65,12 +65,6 @@ class ViewDescriptor {
     private $impToken;
 
     /**
-     * lista di script javascript da aggiungere alla pagina
-     * @var array
-     */
-    //private $js;
-    
-    /**
      * flag per dati json (non scrive html)
      * @var boolean
      */
@@ -385,22 +379,6 @@ class ViewDescriptor {
      */
     public function setPagina($pagina) {
         $this->pagina = $pagina;
-    }
-    
-    /**
-     * Aggiunge uno script alla pagina
-     * @param String $nome
-     */
-    public function addScript($nome){
-        $this->js[] = $nome;
-    }
-    
-    /**
-     * Restituisce la lista di script
-     * @return array
-     */
-    public function &getScripts(){
-        return $this->js;
     }
     
     /**
